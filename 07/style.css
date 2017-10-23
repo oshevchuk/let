@@ -1,0 +1,136 @@
+body {font-family:arial;font-size:15px;color:#000000;line-height:22px;margin:0;padding:0; text-align:left;}
+
+p {font-family:"arial", arial;font-size:15px;color:#000000;line-height:22px; text-align:left;}
+
+a {color:#f4820d;}
+
+.signature {font-family:"trebuchet ms", arial;font-size:21px;color:#de440d;line-height:28px;text-align:left; font-weight:normal;font-style:italic; padding-bottom:20px;}
+
+.ps {font-family:"arial", arial;font-size:15px;color:#000000;line-height:20px;text-align:left; font-weight:normal;font-style:normal;padding-top:5px;padding-bottom:17px;}
+
+.footer a {font-family:arial; font-size:11px; color:#848484; text-decoration:none; text-align:center;}
+.footer a:hover {text-decoration:underline;}
+.footer {font-family:arial; font-size:11px; color:#848484; text-decoration:none; position:relative;top:12px; text-align:center; padding:0; margin-top:3px;width:600px;padding-bottom:14px;}
+
+html>/**/body .footer {position:relative;top:15px;}
+
+.header1 {font-family:"trebuchet ms", tahoma, "Times New Roman", Times, serif; font-size:34px; color:#ffffff; text-align:center; font-weight:bold;padding-bottom:0px;padding-top:24px;padding-left:160px;letter-spacing:-1px;font-style:italic;}
+
+.header2 {font-family:"trebuchet ms", tahoma, "Times New Roman", Times, serif; font-size:18px; color:#3d502a; text-align:center; font-weight:normal;padding-bottom:0px;padding-top:15px;padding-left:130px; letter-spacing:-1px;font-style:italic;}
+
+.head0 {font-family:"trebuchet ms", tahoma, "Times New Roman", Times, serif; font-size:32px; color:#f55600; line-height:29pt; text-align:center; font-weight:bold;padding-bottom:20px;padding-top:20px; letter-spacing:-1px;font-style:normal;}
+
+.head3 {font-family:"trebuchet ms", tahoma, "Times New Roman", Times, serif; font-size:23px; color:#505050; line-height:22pt; text-align:center; font-weight:bold;padding-bottom:28px; letter-spacing:0px;font-style:normal;}
+
+.head4 {font-family:"trebuchet ms", arial, "Times New Roman", Times, serif; font-size:24px; color:#709f3a; line-height:23pt; text-align:center; font-weight:bold;padding-bottom:3px; letter-spacing:0px; padding-top:3px; font-style:normal;}
+
+.bullet {font-family:"trebuchet ms", arial, "Times New Roman", Times, serif; font-size:15px; color:#b60101; line-height:22pt; text-align:left;}
+
+.style1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: 29px;
+	color: #CC0000;
+}
+
+ul
+{
+list-style-type: none;
+padding: 0;
+margin: 0;
+padding-top:10px; margin:0 30px; margin-right:50px;
+}
+
+li
+{
+background-image: url(images/t10_10.jpg);
+background-repeat: no-repeat;
+background-position: 0 .05em;
+padding-left: 2.4em;
+margin-left:0.4em; margin:13px 0;
+font-family:"trebuchet ms", arial, "Times New Roman", Times, serif; font-size:15px; color:#000000; line-height:15pt; text-align:left;
+}
+
+.author {font-family:arial;font-size:14px;color:#0a1828;line-height:22px;font-weight:normal; text-align:left;}
+
+
+
+
+.head2 {font-family:"trebuchet ms", arial, "Times New Roman", Times, serif; font-size:22px; color:#ffffff; line-height:22pt; text-align:center; font-weight:bold;font-style:normal; background:url(images/t1010_19.jpg) no-repeat; width:498px;height:64px; padding-top:31px; padding-left:0px;letter-spacing:-1px;}
+.test2 {font-family:"arial", arial, "Times New Roman", Times, serif; font-size:13px; line-height:21px; color:#e8fbd3; position:relative;bottom:40px;  text-align:left;padding:5px 5px; width:441px; padding-bottom:0px; padding-top:49px;font-style:normal;}
+
+
+.order {background:url(images/t10_25.jpg) no-repeat; width:415px; height:132px; border:0; text-align:center; margin-top:5px;}
+.order a {border:0;}
+form {margin:0;padding:0;}
+
+
+.vidbox {border:4px double #f55600;}
+.cen {text-align:center;}
+
+
+
+
+.optinbox {border:4px dashed #e84800; background-color:#fdfdf2; margin:10px; font-family:"trebuchet ms", arial; font-size:14px; color:black;}
+.optinprivacy {text-align:center;}
+.optinprivacy a {font-size:9px;text-align:center;color:gray;}
+.optinsubmit {width:200px; height:60px; font-family:"trebuchet ms", arial; font-size:17px; font-weight:bold; background-color:#e84800; border:2px inherit #e84800; color:white;}
+.optintext {text-align:center;font-weight:bold;font-size:16px;}
+.optinhead { font-family:"trebuchet ms", arial; font-size:20px; color:black;font-weight:bold; padding:10px;padding-top:30px;}
+
+.capture li
+{
+background-image: url(images/t10_10.jpg);
+background-repeat: no-repeat;
+background-position: 0 .85em;
+padding-left: 2.4em;
+margin-left:0.4em;
+padding-top:12px;
+font-family:"trebuchet ms", arial, "Times New Roman", Times, serif; font-size:15px; color:#4f4f4f; line-height:15pt; text-align:left;
+}
+
+
+
+
+.testimonial1 {background:url(images/t101010_14.jpg) no-repeat;}
+.testimonial2 {background:url(images/t101010_16.jpg) repeat-y;}
+.testimonial3 {background:url(images/t101010_17.jpg) bottom no-repeat; padding-bottom:32px;}
+.testimonial-head {font-family:"trebuchet ms", tahoma, "Times New Roman", Times, serif; font-size:23px; color:#ffffff; line-height:22pt; text-align:center; font-style:italic; font-weight:normal;padding-top:27px;}
+.testimonial-text {font-family:"arial", arial, "Times New Roman", Times, serif;  font-size:14px; line-height:21px; color:#77521c; font-style:normal;padding:0px 35px;padding-top:11px;text-align:left;}
+
+.product1 {background:url(images/product_31.jpg) no-repeat;}
+.product2 {background:url(images/product_34.jpg) repeat-y;}
+.product3 {background:url(images/product_36.jpg) bottom no-repeat; padding-bottom:23px;}
+.product-head {font-family:"trebuchet ms",arial, "Times New Roman", Times, serif; font-size:21px; color:#ffffff; line-height:22pt; text-align:center; font-style:normal;font-weight:bold;letter-spacing:0px;padding-bottom:0px;padding-top:3px;}
+.product-text {font-family:"trebuchet ms",arial, "Times New Roman", Times, serif; font-size:14px; line-height:20px; color:#000000; font-style:normal;padding:0px 30px;padding-top:11px;}
+
+.bonus1 {background:url(images/t1010_19.jpg) no-repeat;}
+.bonus2 {background:url(images/t1010_20.jpg) repeat-y;}
+.bonus3 {background:url(images/t1010_21.jpg) bottom no-repeat; padding-bottom:44px;}
+.bonus-head {font-family:"trebuchet ms", arial, "Times New Roman", Times, serif; font-size:21px; color:#ffffff; line-height:22pt; text-align:center; font-style:normal;font-weight:normal;padding-bottom:0px;padding-top:31px;}
+.bonus-text {font-family:"arial", arial, "Times New Roman", Times, serif; font-size:13px; line-height:21px; color:#e8fbd3; text-align:left;padding:0px 35px;padding-top:12px;}
+
+
+.subhead {font-family:"trebuchet ms",arial; color:#000000;line-height:22px;font-weight:bold; text-align:Center; font-size:16px;padding:0 90px; padding-bottom:0px;padding-top:31px;}
+
+.author-img {margin-right:8px;border:1px solid #504340;}
+.bigletter {
+    float: left;
+    font-size:52pt;
+    line-height: 0.8;
+    margin-left: 0px;
+    color:#f55600;
+    font-family:"trebuchet ms",arial;
+}
+
+
+
+.guarantee-table {border:1px dashed #ffe1b4;background-color:#fff9ef;padding:16px;margin:10px;}
+.guarantee-head {font-family:"trebuchet ms",arial, "Times New Roman", Times, serif; font-size:26px; color:#e7920f; line-height:23pt; text-align:center; font-style:normal; font-weight:bold;margin-left:0px;margin-bottom:0px;padding:0px 0px;letter-spacing:-1px;}
+.guarantee-text {font-family:arial;font-size:15px;color:#000000;line-height:21px;;  font-style:normal;  padding-bottom:0px; text-align:left;padding:5px 0px;padding-top:14px;}
+
+
+
+.disclaimer {font-size:9px;margin-bottom:14px; border:0px solid #9da98b;padding:5px;line-height:15px;}
+.footer-secure {font-size:9px;margin-bottom:14px;margin-top:5px; border:1px solid #efefef;padding:5px;}
+

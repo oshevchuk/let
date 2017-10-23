@@ -1,0 +1,136 @@
+body {font-family:arial;font-size:14px;color:#000000;line-height:21px;margin:0;padding:0; text-align:left;}
+
+p {font-family:"arial", arial;font-size:14px;color:#000000;line-height:21px; text-align:left;}
+
+a {color:#f05f03;}
+
+.signature {font-family:"arial", arial;font-size:22px;color:#0c3b67;line-height:28px;text-align:left; font-weight:normal;font-style:italic; padding-bottom:20px;}
+
+.ps {font-family:"arial", arial;font-size:15px;color:#0a1828;line-height:20px;text-align:left; font-weight:normal;font-style:normal;padding-top:5px;padding-bottom:17px;}
+
+.footer a {font-family:arial; font-size:11px; color:#4d7092; text-decoration:none; text-align:center;}
+.footer a:hover {text-decoration:underline;}
+.footer {font-family:arial; font-size:11px; color:#4d7092; text-decoration:none; text-align:center; padding:0; margin-top:0px; padding-bottom:13px;width:600px;}
+
+html>/**/body .footer {position:relative;top:15px;}
+
+.header1 {font-family:"arial", tahoma, "Times New Roman", Times, serif; font-size:40px; color:#ffffff; text-align:center; font-weight:bold;padding-bottom:50px; letter-spacing:-1px;font-style:italic;}
+
+.header2 {font-family:"arial", tahoma, "Times New Roman", Times, serif; font-size:20px; color:#1f2c04; text-align:center; font-weight:normal;padding-bottom:42px; letter-spacing:-1px;font-style:italic;}
+
+.head0 {font-family:"arial", tahoma, "Times New Roman", Times, serif; font-size:37px; color:#8cbf07; line-height:32pt; text-align:center; font-weight:bold;padding:0 90px;padding-right:104px;padding-bottom:20px; letter-spacing:0px;font-style:normal; }
+
+.head3 {font-family:"arial", tahoma, "Times New Roman", Times, serif; font-size:24px; color:#1b1b1b; line-height:22pt; text-align:center; font-weight:bold;padding-bottom:29px; letter-spacing:0px;font-style:normal;}
+
+.head4 {font-family:"arial", arial, "Times New Roman", Times, serif; font-size:30px; color:#2066a9; line-height:27pt; text-align:center; font-weight:bold;padding-bottom:3px; letter-spacing:-1px; padding-top:3px; font-style:normal;}
+
+.bullet {font-family:"trebuchet ms", arial, "Times New Roman", Times, serif; font-size:15px; color:#b60101; line-height:22pt; text-align:left;}
+
+.style1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: 29px;
+	color: #CC0000;
+}
+
+ul
+{
+list-style-type: none;
+padding: 0;
+margin: 0;
+padding-top:10px; margin:0 20px;
+}
+
+li
+{
+background-image: url(images/t7_10.jpg);
+background-repeat: no-repeat;
+background-position: 0 -.25em;
+padding-left: 2.4em;
+margin-left:1em; margin:20px 0;
+font-family:arial, "Times New Roman", Times, serif; font-size:15px; color:#000000; line-height:15pt; text-align:left;
+}
+
+.author {font-family:arial;font-size:13px;color:#0a1828;line-height:22px;font-weight:normal; text-align:left;}
+
+
+
+
+.head2 {font-family:"arial", arial, "Times New Roman", Times, serif; font-size:24px; color:#bfe0ff; line-height:22pt; text-align:center; font-weight:bold;font-style:normal; background:url(images/t77_29.jpg) no-repeat; width:547px;height:77px; padding-top:31px; padding-left:0px;letter-spacing:-1px;}
+.test2 {font-family:"arial", arial, "Times New Roman", Times, serif; font-size:14px; line-height:21px; color:#eeeeee; position:relative;bottom:32px;  text-align:left;padding:0px 0px; width:471px; padding-bottom:0px; padding-top:40px;}
+
+
+.order {background:url(images/t7_23.jpg) no-repeat; width:538px; height:191px; border:0; text-align:center; margin-top:5px;}
+.order a {border:0;}
+form {margin:0;padding:0;}
+
+
+.vidbox {border:4px double grey;}
+.cen {text-align:center;}
+
+
+
+
+.optinbox {border:4px dashed #f06504; background-color:#f3f8fc; margin:10px; font-family:"arial", arial; font-size:14px; color:black;}
+.optinprivacy {text-align:center;}
+.optinprivacy a {font-size:9px;text-align:center;color:gray;}
+.optinsubmit {width:200px; height:60px; font-family:"arial", arial; font-size:17px; font-weight:bold; background-color:#f06504; border:2px inherit #f06504; color:white;}
+.optintext {text-align:center;font-weight:bold;font-size:16px;}
+.optinhead { font-family:"arial", arial; font-size:20px; color:black;font-weight:bold; padding:10px;padding-top:30px;}
+
+.capture li
+{
+background-image: url(images/t7_10.jpg);
+background-repeat: no-repeat;
+background-position: 0 .45em;
+padding-left: 2.4em;
+margin-left:0.4em;
+padding-top:12px;
+font-family:"arial", arial, "Times New Roman", Times, serif; font-size:16px; color:#649c14; line-height:15pt; text-align:left;
+}
+
+
+
+
+
+.testimonial1 {background:url(images/t7_16.jpg) no-repeat;}
+.testimonial2 {background:url(images/t7_18.jpg) repeat-y;}
+.testimonial3 {background:url(images/t7_20.jpg) bottom no-repeat; padding-bottom:21px;}
+.testimonial-head {font-family:"arial", tahoma, "Times New Roman", Times, serif; font-size:25px; color:#ffffff; line-height:22pt; text-align:center; font-style:italic; font-weight:normal;padding-top:9px;}
+.testimonial-text {font-family:"arial", arial, "Times New Roman", Times, serif;  position:relative;bottom:14px;  font-size:14px; line-height:21px; color:#ffe5d3; font-style:italic;padding:0px 35px;padding-top:25px;text-align:left;}
+
+.product1 {background:url(images/product_35.jpg) no-repeat;}
+.product2 {background:url(images/product_38.jpg) repeat-y;}
+.product3 {background:url(images/product_40.jpg) bottom no-repeat; padding-bottom:29px;}
+.product-head {font-family:arial, "Times New Roman", Times, serif; font-size:23px; color:#2f3e07; line-height:22pt; text-align:center; font-style:normal;font-weight:bold;letter-spacing:-1px;padding-bottom:0px;padding-top:3px;}
+.product-text {font-family:arial, "Times New Roman", Times, serif; font-size:14px; line-height:20px; color:#000000; font-style:normal;padding:0px 30px;padding-top:6px;}
+
+.bonus1 {background:url(images/t77_29.jpg) no-repeat;}
+.bonus2 {background:url(images/t7_32.jpg) repeat-y;}
+.bonus3 {background:url(images/t7_34.jpg) bottom no-repeat; padding-bottom:41px;}
+.bonus-head {font-family:"arial", arial, "Times New Roman", Times, serif; font-size:22px; color:#bfe0ff; line-height:22pt; text-align:center; font-style:normal;font-weight:normal;padding-bottom:0px;padding-top:17px;}
+.bonus-text {font-family:"arial", arial, "Times New Roman", Times, serif; font-size:14px; line-height:21px; color:#f0f8ff; text-align:left;padding:0px 40px;padding-top:19px;}
+
+
+.subhead {font-family:arial; color:#000000;line-height:22px;font-weight:bold; text-align:Center; font-size:17px;padding:0 90px;padding-right:104px; padding-bottom:16px;padding-top:2px;}
+
+.author-img {margin-right:8px;border:1px solid #504340;}
+.bigletter {
+    float: left;
+    font-size:52pt;
+    line-height: 0.8;
+    margin-left: 0px;
+    color:#8cbf07;
+    font-family:arial;
+}
+
+
+
+.guarantee-table {border:1px dashed #f5d9c1;background-color:#fff0e4;padding:16px;margin:10px;}
+.guarantee-head {font-family:arial, "Times New Roman", Times, serif; font-size:26px; color:#a5510c; line-height:23pt; text-align:center; font-style:normal; font-weight:bold;margin-left:0px;margin-bottom:0px;padding:0px 0px;letter-spacing:-1px;}
+.guarantee-text {font-family:arial;font-size:15px;color:#5d5d5d;line-height:21px;;  font-style:normal;  padding-bottom:0px; text-align:left;padding:5px 0px;padding-top:14px;}
+
+
+
+.disclaimer {font-size:9px;margin-bottom:14px; border:0px solid #9da98b;padding:5px;line-height:15px;}
+.footer-secure {font-size:9px;margin-bottom:14px;margin-top:5px; border:1px solid #efefef;padding:5px;}

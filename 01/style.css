@@ -1,0 +1,130 @@
+body {font-family:arial;font-size:14px;color:#484848;line-height:21px;margin:0;padding:0; text-align:left;}
+
+p {font-family:"trebuchet ms", arial;font-size:14px;color:#484848;line-height:21px; text-align:left;}
+
+a {color:#d6391e;}
+
+.signature {font-family:"trebuchet ms", arial;font-size:17px;color:#484848;line-height:20px;text-align:left; font-weight:bold;font-style:italic; padding-bottom:20px;}
+
+.ps {font-family:"trebuchet ms", arial;font-size:15px;color:#484848;line-height:20px;text-align:left; font-weight:normal;font-style:normal;padding-top:5px;padding-bottom:17px;}
+
+.footer a {font-family:verdana; font-size:11px; color:#868686; text-decoration:none; text-align:center;}
+.footer a:hover {text-decoration:underline;}
+.footer {font-family:verdana; font-size:11px; color:#868686; text-decoration:none; position:relative;top:12px; text-align:center; padding:0; margin-top:0px;width:750px;padding-bottom:14px;}
+
+html>/**/body .footer {position:relative;top:15px;}
+
+.header1 {font-family:"trebuchet ms", tahoma, "Times New Roman", Times, serif; font-size:56px; color:#ffffff; text-align:center; font-weight:bold;padding-top:10px; letter-spacing:-1px;font-style:normal;}
+
+.header2 {font-family:"trebuchet ms", tahoma, "Times New Roman", Times, serif; font-size:18px; color:#ffd155; text-align:center; font-weight:bold;padding-top:50px; letter-spacing:-1px;font-style:italic;}
+
+.head0 {font-family:"trebuchet ms", tahoma, "Times New Roman", Times, serif; font-size:38px; color:#dc3407; line-height:31pt; text-align:center; font-weight:bold;padding-bottom:21px;padding-top:16px; letter-spacing:-1px;font-style:italic;}
+
+.head3 {font-family:"trebuchet ms", tahoma, "Times New Roman", Times, serif; font-size:23px; color:#2f302c; line-height:22pt; text-align:center; font-weight:normal;padding-bottom:28px; letter-spacing:0px;font-style:italic;}
+
+.head4 {font-family:"trebuchet ms", arial, "Times New Roman", Times, serif; font-size:30px; color:#d62d12; line-height:27pt; text-align:center; font-weight:bold;padding-bottom:3px; letter-spacing:0px; padding-top:3px; font-style:italic;}
+
+.bullet {font-family:arial, "Times New Roman", Times, serif; font-size:15px; color:#b60101; line-height:22pt; text-align:left;}
+
+.style1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: 29px;
+	color: #CC0000;
+}
+
+ul
+{
+list-style-type: none;
+padding: 0;
+margin: 0;
+padding-top:10px; margin-left:14px;
+}
+
+li
+{
+background-image: url(images/t2_09.jpg);
+background-repeat: no-repeat;
+background-position: 0 .00em;
+padding-left: 2.0em;
+margin:15px 0;
+
+font-family:"trebuchet ms", arial, "Times New Roman", Times, serif; font-size:15px; color:#484848; line-height:15pt; text-align:left;
+}
+
+.author {font-family:"trebuchet ms",arial;font-size:14px;color:#484848;line-height:22px;font-weight:normal; text-align:left;}
+
+
+
+.order {background:url(images/t2_24.jpg) no-repeat; width:430px; height:140px; border:0; text-align:center; margin-top:5px;}
+.order a {border:0;}
+form {margin:0;padding:0;}
+
+
+.vidbox {border:4px double #d7d0ab;}
+.cen {text-align:center;}
+
+
+.optinbox {border:4px dashed #c55326; background-color:#fff0c7; margin:10px; font-family:"trebuchet ms", arial; font-size:14px; color:black;}
+.optinprivacy {text-align:center;}
+.optinprivacy a {font-size:9px;text-align:center;color:gray;}
+.optinsubmit {width:200px; height:60px; font-family:"trebuchet ms", arial; font-size:17px; font-weight:bold; background-color:#df3c0e; border:2px inherit #c55326; color:white;}
+.optintext {text-align:center;font-weight:bold;font-size:16px;}
+.optinhead { font-family:"trebuchet ms", arial; font-size:20px; color:black;font-weight:bold; padding:10px;padding-top:30px;}
+
+.capture li
+{
+background-image: url(images/t2_09.jpg);
+background-repeat: no-repeat;
+background-position: 0 .34em;
+padding-left: 2.3em;
+padding-top:9px;
+font-family:"trebuchet ms", arial, "Times New Roman", Times, serif; font-size:15px; color:#728b2d; line-height:16pt; text-align:left;
+}
+
+
+
+
+
+.testimonial1 {background:url(images/t2_31.jpg) no-repeat;}
+.testimonial2 {background:url(images/t2_34.jpg) repeat-y;}
+.testimonial3 {background:url(images/t2_36.jpg) bottom no-repeat; padding-bottom:31px;}
+.testimonial-head {font-family:"trebuchet ms", tahoma, "Times New Roman", Times, serif; font-size:18px; color:#535649; line-height:22pt; text-align:center; font-style:italic; font-weight:bold;padding-top:4px;}
+.testimonial-text {font-family:"trebuchet ms", arial, "Times New Roman", Times, serif;   font-size:13px; line-height:21px; color:#535353; font-style:italic;padding:0px 25px;padding-top:5px;text-align:left;}
+
+.product1 {background:url(images/product_40.jpg) no-repeat;}
+.product2 {background:url(images/product_43.jpg) repeat-y;}
+.product3 {background:url(images/product_45.jpg) bottom no-repeat; padding-bottom:26px;}
+.product-head {font-family:"trebuchet ms",tahoma, "Times New Roman", Times, serif; font-size:23px; color:#ffffff; line-height:22pt; text-align:center; font-style:normal;font-weight:bold;padding-bottom:1px;}
+.product-text {font-family:arial, "Times New Roman", Times, serif; font-size:14px; line-height:20px; color:#000000; font-style:normal;padding:0px 30px;padding-top:11px;}
+
+.bonus1 {background:url(images/t2_13.jpg) no-repeat;}
+.bonus2 {background:url(images/t2_16.jpg) repeat-y;}
+.bonus3 {background:url(images/t2_18.jpg) bottom no-repeat; padding-bottom:34px;}
+.bonus-head {font-family:"trebuchet ms", arial, "Times New Roman", Times, serif; font-size:18px; color:#fbc040; line-height:22pt; text-align:center; font-style:normal;font-weight:bold;padding-bottom:6px;padding-top:0px;}
+.bonus-text {font-family:"trebuchet ms", arial, "Times New Roman", Times, serif; font-size:12px; line-height:21px; color:#e8e8e8;   font-style:normal;padding:0px 30px;padding-top:0px;}
+
+
+.subhead {font-family:"trebuchet ms",arial; color:#000000;line-height:22px;font-weight:bold; text-align:Center; font-size:16px;padding:0px 87px; padding-bottom:4px;padding-top:23px;}
+
+.author-img {margin-right:8px;border:1px solid #504340;}
+.bigletter {
+    float: left;
+    font-size:52pt;
+    line-height: 0.8;
+    margin-left: 0px;
+    color:#dc3407;
+    font-family:"trebuchet ms", arial;
+}
+
+
+
+.guarantee-table {border:1px dashed #cccccc;background-color:#f1f1f1;padding:16px;margin:10px;}
+.guarantee-head {font-family:"trebuchet ms",arial, "Times New Roman", Times, serif; font-size:23px; color:#1e1e1e; line-height:23pt; text-align:center; font-style:normal; font-weight:bold;margin-left:0px;margin-bottom:0px;padding:0px 0px;}
+.guarantee-text {font-family:arial;font-size:13px;color:#5a5a5a;line-height:21px;;  font-style:normal;  padding-bottom:0px; text-align:left;padding:5px 0px;padding-top:14px;}
+
+
+
+.disclaimer {font-size:9px;margin-bottom:14px; border:0px solid #9da98b;padding:5px;line-height:15px;}
+.footer-secure {font-size:9px;margin-bottom:14px;margin-top:5px; border:1px solid #efefef;padding:5px;}
+

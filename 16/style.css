@@ -1,0 +1,158 @@
+/*
+
+Theme Name:		Jumping Frog - Minisite Success System
+
+Theme URI:		http://www.minisitesuccesssystem.com
+
+Description:	        High quality theme powered by Minisite Success System.
+
+Version:		1.0
+
+Author:			Lucas Adamski
+
+Author URI:		http://www.minisitesuccesssystem.com
+
+*/
+
+
+
+body {font-family:verdana;font-size:14px;color:#000000;line-height:22px;margin:0;padding:0; text-align:left;}
+
+p {font-family:verdana;font-size:14px;color:#000000;line-height:22px;}
+
+a {color:#3965b1;font-weight:bold;}
+
+.signature {font-family:arial;font-size:21px;color:#051f30;line-height:26px;text-align:left; font-weight:normal;font-style:italic; padding-bottom:10px;}
+
+.ps {font-family:arial;font-size:16px;color:#201a19;line-height:22px;text-align:left; font-weight:normal;font-style:normal;padding-top:15px;padding-bottom:0px;}
+
+.disclaimer {font-size:9px;margin-bottom:14px; border:0px solid #efefef;padding:5px;line-height:15px;}
+.footer-secure {font-size:9px;margin-bottom:14px;margin-top:5px; border:1px solid #efefef;padding:5px;}
+
+.footer a {font-family:arial; font-size:11px; color:#bccad4; text-decoration:none; text-align:center;font-weight:bold;}
+.footer a:hover {text-decoration:underline;}
+.footer {font-family:arial; font-size:11px; color:#bccad4; text-decoration:none;  text-align:center; padding:0;padding-top:20px; padding-bottom:13px;width:680px;}
+
+.header1 {font-family:arial, "Times New Roman", Times, serif; font-size:51px; color:#2c4452; line-height:30pt; text-align:center; font-weight:bold;padding-top:88px;letter-spacing:-2px;font-style:normal;}
+
+.header2 {font-family:arial, "Times New Roman", Times, serif; font-size:21px; color:#386d92; line-height:30pt; text-align:center; font-weight:normal;padding-top:11px; letter-spacing:0px;font-style:normal;}
+
+.head0 {font-family:arial, "Times New Roman", Times, serif; font-size:35px; color:#366a8b; line-height:33pt; text-align:center; font-weight:bold;padding:0 60px;padding-bottom:5px;padding-top:18px; letter-spacing:-1px;font-style:normal;}
+
+.head3 {font-family:arial, "Times New Roman", Times, serif; font-size:21px; color:#062435; line-height:21pt; text-align:center;padding:0 30px; font-weight:normal;padding-bottom:31px;padding-top:13px; letter-spacing:-0px;}
+
+.head4 {font-family:arial, "Times New Roman", Times, serif; font-size:28px; color:#387192; line-height:25pt; text-align:center; font-weight:normal;padding-bottom:7px; letter-spacing:-0px; padding-top:6px;font-style:normal;}
+
+.subhead {font-family:arial; color:#002447;line-height:22px;font-weight:bold; text-align:Center; font-size:17px;padding:7px 87px; padding-bottom:14px;}
+
+.bullet {font-family:arial, "Times New Roman", Times, serif; font-size:15px; color:#b60101; line-height:22pt; text-align:left;}
+
+.style1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: 29px;
+	color: #CC0000;
+}
+
+ul
+{
+list-style-type: none;
+padding: 0;
+margin: 0;
+padding-top:10px; margin:0 20px;
+}
+
+li
+{
+background-image: url(images/sf_14.png);
+background-repeat: no-repeat;
+background-position: 0 .32em;
+padding-left: 1.5em;
+margin: 13px 0;
+font-family:verdana, "Times New Roman", Times, serif; font-size:15px; color:#000000; line-height:17pt; text-align:left;
+}
+
+.author {font-family:verdana;font-size:14px;color:#000000;line-height:22px;font-weight:normal; }
+.author-img {margin-right:8px;border:2px solid #e4eaf0;}
+
+
+
+.head2 {font-family:arial, "Times New Roman", Times, serif; font-size:24px; color:#575b5f; line-height:22pt; text-align:left; font-weight:bold; background:url(images/ss_25.jpg) no-repeat; width:583px;height:68px; padding-top:30px; padding-left:35px;}
+.test2 {font-family:arial, "Times New Roman", Times, serif; font-size:14px; line-height:21px; color:#4d4d4d; position:relative;bottom:27px;  text-align:left;padding:27px 0px; width:515px; padding-bottom:0px;}
+
+
+.order {background:url(images/sf_31.png) no-repeat; width:464px; height:163px; border:0;margin-bottom:10px;}
+.order a {border:0;}
+form {margin:0;padding:0;}
+
+
+.vidbox {border:3px solid #387192;margin-top:20px;}
+
+
+
+.cen {text-align:center;}
+
+
+
+.optinbox {border:4px dashed #db0101; background-color:#fffcf4; margin:10px; font-family:"trebuchet ms", arial; font-size:14px; color:black;}
+.optinprivacy {text-align:center;}
+.optinprivacy a {font-size:9px;text-align:center;color:gray;}
+.optinsubmit {width:200px; height:60px; font-family:"trebuchet ms", arial; font-size:17px; font-weight:bold; background-color:#db0101; border:2px inherit #db0101; color:white;}
+.optintext {text-align:center;font-weight:bold;font-size:16px;}
+.optinhead { font-family:"trebuchet ms", arial; font-size:20px; color:black;font-weight:bold; padding:10px;padding-top:30px;}
+
+.capture li
+{
+background-image: url(images/ss_12.jpg);
+background-repeat: no-repeat;
+background-position: 0 .88em;
+padding-left: 2.1em;
+padding-top:10px;
+font-family:arial, "Times New Roman", Times, serif; font-size:16px; color:#b60101; line-height:16pt; text-align:left;
+}
+
+
+
+
+
+.testimonial1 {background:url(images/sf_11.png) no-repeat;}
+.testimonial2 {background:url(images/sf_18.png) repeat-y;}
+.testimonial3 {background:url(images/sf_20.png) bottom no-repeat; padding-bottom:30px;}
+.testimonial-head {font-family:arial, "Times New Roman", Times, serif; font-size:25px; color:#454545; line-height:22pt; text-align:center; font-style:normal; font-weight:normal;padding-bottom:2px;padding-top:23px;letter-spacing:0px;}
+.testimonial-text {font-family:verdana,arial, "Times New Roman", Times, serif;  font-size:14px; line-height:21px; color:#000000; font-style:normal;padding:0px 29px;padding-top:7px;text-align:left;}
+
+.product1 {background:url(images/sf_23.png) no-repeat;}
+.product2 {background:url(images/sf_26.png) repeat-y;}
+.product3 {background:url(images/sf_28.png) bottom no-repeat; padding-bottom:29px;}
+.product-head {font-family:arial, "Times New Roman", Times, serif; font-size:23px; color:#ffffff; line-height:22pt; text-align:center; font-style:normal; font-weight:normal;padding-bottom:4px;padding-top:0px;letter-spacing:0px;}
+.product-text {font-family:verdana, "Times New Roman", Times, serif;  font-size:14px; line-height:21px; color:#000000; font-style:normal;padding:0px 27px;padding-top:7px;text-align:left;}
+
+.bonus1 {background:url(images/sf_37.png) no-repeat;}
+.bonus2 {background:url(images/sf_40.png) repeat-y;}
+.bonus3 {background:url(images/sf_42.png) bottom no-repeat; padding-bottom:26px;}
+.bonus-head {font-family:arial, "Times New Roman", Times, serif; font-size:23px; color:#3b505a; line-height:22pt; text-align:center; font-style:normal; font-weight:normal;padding-bottom:0px;padding-top:1px;letter-spacing:0px;}
+.bonus-text {font-family:verdana, "Times New Roman", Times, serif;  font-size:14px; line-height:21px; color:#000000; font-style:normal;padding:0px 27px;padding-top:7px;text-align:left;}
+
+
+.subhead {font-family:arial; color:#5b677b;line-height:22px;font-weight:normal; text-align:Center; font-size:19px;padding:0 90px; padding-bottom:0px;padding-top:11px;}
+
+.author-img {margin-right:8px;border:1px solid #504340;}
+.bigletter {
+    float: left;
+    font-size:52pt;
+    line-height: 0.8;
+    margin-left: 0px;
+    color:#387192;
+    font-family:verdana;
+}
+
+
+
+.guarantee-table {border:1px dashed #8b98b0;background-color:#ebeff6;padding:16px;margin:10px;}
+.guarantee-head {font-family:arial, "Times New Roman", Times, serif; font-size:26px; color:#2f3a4c; line-height:25pt; text-align:center; font-style:normal; font-weight:normal;margin-left:0px;margin-bottom:0px;padding:0px 0px;letter-spacing:-0px;}
+.guarantee-text {font-family:verdana;font-size:14px;color:#000000;line-height:22px;;  font-style:normal;  padding-bottom:0px; text-align:left;padding:5px 0px;padding-top:14px;}
+
+
+
+.disclaimer {font-size:9px;margin-bottom:14px; border:0px solid #9da98b;padding:5px;line-height:15px;}
+.footer-secure {font-size:9px;margin-bottom:14px;margin-top:5px; border:1px solid #efefef;padding:5px;}
