@@ -226,3 +226,36 @@ ul {
   padding-top: 5px;
   padding-bottom: 17px;
 }
+
+.guarantee-head {
+  font-family: "trebuchet ms",arial, "Times New Roman", Times, serif;
+  font-size: 23px;
+  color: #1e1e1e;
+  line-height: 23pt;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  padding: 0px 0px;
+}
+
+.guarantee-text {
+  font-family: arial;
+  font-size: 13px;
+  color: #5a5a5a;
+  line-height: 21px;
+  font-style: normal;
+  padding-bottom: 0px;
+  text-align: left;
+  padding: 5px 0px;
+  padding-top: 14px;
+}
+
+.guarantee-table {
+  border: 1px dashed #cccccc;
+  background-color: #f1f1f1;
+  padding: 16px;
+  width: 500px;
+  margin: auto;
+}
