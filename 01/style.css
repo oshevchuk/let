@@ -128,3 +128,67 @@ font-family:"trebuchet ms", arial, "Times New Roman", Times, serif; font-size:15
 .disclaimer {font-size:9px;margin-bottom:14px; border:0px solid #9da98b;padding:5px;line-height:15px;}
 .footer-secure {font-size:9px;margin-bottom:14px;margin-top:5px; border:1px solid #efefef;padding:5px;}
 
+@media only screen and (max-width: 800px) {
+    body {
+        /*background-color: red;*/
+    }
+    .os-full img{
+        width: 100%;
+        min-height: 300px;
+        height: auto;
+    }
+    .os-full{
+        width: 100%!important;
+    }
+    .os-f{
+        width: 100%!important;
+    }
+    .os-bg-f{
+        background-size: 100%;
+    }
+    .testimonial1, .testimonial2, .testimonial3, .product1, .product2, .product3, .bonus1, .bonus2, .bonus3{
+        background-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .sm-box tbody tr, .sm-box tbody tr td{
+        display: block;;
+        text-align: center;
+    }
+    .sm-box{
+        width: 100%;
+    }
+    p{
+        /*font-size: 4vw;*/
+        /*font-size: calc(0.75em + 1vmin);*/
+        font-size: 5vmax;
+        line-height: 5vmax;
+
+        /*-webkit-text-size-adjust:none;*/
+        /*-ms-text-size-adjust:none;*/
+        /*-moz-text-size-adjust:none;*/
+        /*text-size-adjust:none;*/
+
+    }
+    .subhead, .head3, .author, li, .testimonial-text, .product-text{
+        font-size: 5.5vmax;
+        line-height: 6vmax;
+    }
+    .testimonial-text img, .product-text img{
+        width: 100%;
+        display: block;
+        min-height: 300px;
+        margin: auto;
+    }
+    .head0, .head4, .testimonial-head{
+        font-size: 8vmax;
+        line-height: 8vmax;
+    }
+    .testimonial1, .testimonial2, .testimonial3{
+        height: auto!important;
+        background-image: none;
+    }
+}
+
+html,body { -webkit-text-size-adjust:none; }
