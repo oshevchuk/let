@@ -1,5 +1,5 @@
 body{
-  background-color: #f1f1f1;
+  background-color: #eaeaea;
 }
 
 .header{
@@ -12,7 +12,7 @@ body{
   background-size: auto 100%;
 }
 .container{
-  width: 900px;
+  max-width: 900px;
   margin: auto;
 }
 
@@ -273,7 +273,7 @@ ul {
   padding-top: 0px;
 }
 .bonus2 {
-  background: url(../images/t2_16.jpg) repeat-y;
+  //background: url(../images/t2_16.jpg) repeat-y;
 }
 .bonus-text {
   font-family: "trebuchet ms", arial, "Times New Roman", Times, serif;
@@ -287,4 +287,84 @@ ul {
 .os-bonus{
   width: 580px;
   margin: auto;
+  border-radius: 9px;
+  background-color: #3b3b3b;
+  box-shadow: 0 0 5px rgba(0,0,0,1), inset -5px -10px 15px rgba(20,20,20,0.8);
+
+  .bonus1{
+    background-color: black;
+    border-radius: 9px;
+  }
+  .bonus2{
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+}
+
+.mail{
+  width: 600px;
+  margin: auto;
+  border: 2px solid #cb371b;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0,0,0,0.7);
+
+  .product1 {
+    background: url(/responsive/01/image/mail.png);
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+  }
+  .product-head {
+    font-family: "trebuchet ms",tahoma, "Times New Roman", Times, serif;
+    font-size: 23px;
+    color: #ffffff;
+    line-height: 22pt;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    padding-bottom: 1px;
+  }
+  .product-text {
+    font-family: arial, "Times New Roman", Times, serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    font-style: normal;
+    padding: 20px;
+  }
+}
+
+.os-message{
+  width: 600px;
+  margin: auto;
+  border:2px solid white;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(150,150,150,0.8), inset 0px 0px 15px rgba(220,220,220,1);
+  background-color: #fbfbfb;
+
+  .testimonial1{
+    background-color: #e2e3dd;
+    border-radius: 12px;
+  }
+
+  .testimonial-head {
+    font-family: "trebuchet ms", tahoma, "Times New Roman", Times, serif;
+    font-size: 18px;
+    color: #535649;
+    line-height: 22pt;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    padding-top: 4px;
+  }
+  .testimonial-text {
+    font-family: "trebuchet ms", arial, "Times New Roman", Times, serif;
+    font-size: 13px;
+    line-height: 21px;
+    color: #535353;
+    font-style: italic;
+    padding: 0px 25px;
+    padding-top: 5px;
+    text-align: left;
+  }
 }
