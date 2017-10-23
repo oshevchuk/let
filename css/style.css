@@ -3,7 +3,7 @@ body {
 
 .header {
   width: 100%;
-  background-image: url("/responsive/01/image/header.png");
+  background-image: url("/image/header.png");
   min-height: 200px;
   display: flex;
   flex-direction: column;
@@ -35,39 +35,39 @@ body {
   font-style: italic; }
 
 .bg-left {
-  background-image: url("/responsive/01/image/b1.png");
+  background-image: url("/image/b1.png");
   background-repeat: no-repeat;
   height: 24px;
   width: 45px; }
 
 .bg-right {
-  background-image: url("/responsive/01/image/b2.png");
+  background-image: url("/image/b2.png");
   background-repeat: no-repeat;
   height: 24px;
   width: 45px; }
 
 .bg-lleft {
-  background-image: url("/responsive/01/image/b5.png");
+  background-image: url("/image/b5.png");
   background-repeat: repeat-y;
   width: 21px; }
 
 .bg-rright {
-  background-image: url("/responsive/01/image/b4.png");
+  background-image: url("/image/b4.png");
   width: 16px; }
 
 .bg-bottom {
-  background-image: url("/responsive/01/image/b8.png");
+  background-image: url("/image/b8.png");
   height: 24px;
   width: 100%; }
 
 .bg-bleft {
-  background-image: url("/responsive/01/image/b6.png");
+  background-image: url("/image/b6.png");
   background-repeat: no-repeat;
   width: 45px;
   height: 24px; }
 
 .bg-bright {
-  background-image: url("/responsive/01/image/b7.png");
+  background-image: url("/image/b7.png");
   background-repeat: no-repeat;
   width: 45px;
   height: 24px; }
@@ -75,7 +75,7 @@ body {
 .bg-top {
   width: 100%;
   height: 24px;
-  background-image: url("/responsive/01/image/b3.png"); }
+  background-image: url("/image/b3.png"); }
 
 .bg-row {
   width: 100%;
@@ -149,7 +149,13 @@ p {
   text-align: center; }
 
 .vidbox {
+  max-width: 480px;
+  margin: auto;
   border: 4px double #d7d0ab; }
+  .vidbox img {
+    width: 100%;
+    min-height: 320px;
+    max-width: 480px; }
 
 .head4 {
   font-family: "trebuchet ms", arial, "Times New Roman", Times, serif;
@@ -164,7 +170,7 @@ p {
   font-style: italic; }
 
 li {
-  background-image: url(../images/t2_09.jpg);
+  background-image: url(/images/t2_09.jpg);
   background-repeat: no-repeat;
   background-position: 0 .00em;
   padding-left: 2.0em;
@@ -230,7 +236,7 @@ ul {
   border: 1px dashed #cccccc;
   background-color: #f1f1f1;
   padding: 16px;
-  width: 500px;
+  max-width: 500px;
   margin: auto; }
 
 .bonus-head {
@@ -254,7 +260,7 @@ ul {
   padding-top: 0px; }
 
 .os-bonus {
-  width: 580px;
+  max-width: 580px;
   margin: auto;
   border-radius: 9px;
   background-color: #3b3b3b;
@@ -267,14 +273,14 @@ ul {
     padding-bottom: 15px; }
 
 .mail {
-  width: 600px;
+  max-width: 600px;
   margin: auto;
   border: 2px solid #cb371b;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.7); }
   .mail .product1 {
-    background: url(/responsive/01/image/mail.png);
+    background: url("/image/mail.png");
     background-repeat: repeat-x;
     background-size: auto 100%; }
   .mail .product-head {
@@ -295,7 +301,7 @@ ul {
     padding: 20px; }
 
 .os-message {
-  width: 600px;
+  max-width: 600px;
   margin: auto;
   border: 2px solid white;
   border-radius: 12px;
@@ -342,3 +348,47 @@ ul {
   color: #868686;
   text-decoration: none;
   text-align: center; }
+
+.optinbox {
+  border: 4px dashed #c55326;
+  background-color: #fff0c7;
+  font-family: "trebuchet ms", arial;
+  font-size: 14px;
+  color: black;
+  max-width: 350px;
+  margin: auto;
+  padding: 35px 30px; }
+  .optinbox .optintext {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px; }
+  .optinbox .optinprivacy a {
+    font-size: 9px;
+    text-align: center;
+    color: gray; }
+  .optinbox div {
+    margin-bottom: 10px;
+    text-align: center; }
+    .optinbox div span {
+      display: inline-block;
+      min-width: 50px; }
+  .optinbox .optinsubmit {
+    width: 200px;
+    height: 60px;
+    font-family: "trebuchet ms", arial;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #df3c0e;
+    border: 2px inherit #c55326;
+    color: white; }
+
+@media screen and (max-width: 800px) {
+  .full {
+    padding-left: 20px;
+    padding-right: 20px; } }
+
+@media screen and (max-width: 450px) {
+  .testimonial-text img, .product-text img, .bonus-text img, .guarantee-text img {
+    width: 100%; }
+  .bg-lleft, .bg-rright, .bg-left, .bg-top, .bg-right, .bg-bleft, .bg-bottom, .bg-bright {
+    display: none; } }

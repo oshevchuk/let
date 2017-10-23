@@ -1,20 +1,18 @@
-body{
-  background-color: #eaeaea;
-}
+body {
+  background-color: #eaeaea; }
 
-.header{
+.header {
   width: 100%;
-  background-image: url('/image/header.png');
+  background-image: url("images/header.png");
   min-height: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-size: auto 100%;
-}
-.container{
+  background-size: auto 100%; }
+
+.container {
   max-width: 900px;
-  margin: auto;
-}
+  margin: auto; }
 
 .header1 {
   font-family: "trebuchet ms", tahoma, "Times New Roman", Times, serif;
@@ -24,8 +22,7 @@ body{
   font-weight: bold;
   padding-top: 10px;
   letter-spacing: -1px;
-  font-style: normal;
-}
+  font-style: normal; }
 
 .header2 {
   font-family: "trebuchet ms", tahoma, "Times New Roman", Times, serif;
@@ -35,70 +32,62 @@ body{
   font-weight: bold;
   padding-top: 50px;
   letter-spacing: -1px;
-  font-style: italic;
-}
+  font-style: italic; }
 
-.bg-left{
-  background-image: url("/image/b1.png");
+.bg-left {
+  background-image: url("images/b1.png");
   background-repeat: no-repeat;
   height: 24px;
-  width: 45px;
-}
-.bg-right{
-  background-image: url("/image/b2.png");
+  width: 45px; }
+
+.bg-right {
+  background-image: url("images/b2.png");
   background-repeat: no-repeat;
   height: 24px;
-  width: 45px;
-}
-.bg-lleft{
-  background-image: url("/image/b5.png");
+  width: 45px; }
+
+.bg-lleft {
+  background-image: url("images/b5.png");
   background-repeat: repeat-y;
-  width: 21px;
-}
-.bg-rright{
-  background-image: url("/image/b4.png");
-  //background-repeat: repeat-y;
-  width: 16px;
-}
-.bg-bottom{
-  background-image: url("/image/b8.png");
-  //background-repeat: repeat-y;
+  width: 21px; }
+
+.bg-rright {
+  background-image: url("images/b4.png");
+  width: 16px; }
+
+.bg-bottom {
+  background-image: url("images/b8.png");
   height: 24px;
-  width: 100%;
-}
-.bg-bleft{
-  background-image: url("/image/b6.png");
+  width: 100%; }
+
+.bg-bleft {
+  background-image: url("images/b6.png");
   background-repeat: no-repeat;
   width: 45px;
-  height: 24px;
-}
-.bg-bright{
-  background-image: url("/image/b7.png");
+  height: 24px; }
+
+.bg-bright {
+  background-image: url("images/b7.png");
   background-repeat: no-repeat;
   width: 45px;
-  height: 24px;
-}
+  height: 24px; }
 
-.bg-top{
+.bg-top {
   width: 100%;
   height: 24px;
-  background-image: url("/image/b3.png");
-}
+  background-image: url("images/b3.png"); }
 
-.bg-row{
+.bg-row {
   width: 100%;
-  display: flex;
-}
+  display: flex; }
 
-.full{
+.full {
   width: 100%;
   background-color: white;
   box-sizing: border-box;
   padding-right: 80px;
-  padding-left: 80px;
-}
+  padding-left: 80px; }
 
-//
 .subhead {
   font-family: "trebuchet ms",arial;
   color: #000000;
@@ -108,8 +97,7 @@ body{
   font-size: 16px;
   padding: 0px 87px;
   padding-bottom: 4px;
-  padding-top: 23px;
-}
+  padding-top: 23px; }
 
 .head0 {
   font-family: "trebuchet ms", tahoma, "Times New Roman", Times, serif;
@@ -121,8 +109,7 @@ body{
   padding-bottom: 21px;
   padding-top: 16px;
   letter-spacing: -1px;
-  font-style: italic;
-}
+  font-style: italic; }
 
 .head3 {
   font-family: "trebuchet ms", tahoma, "Times New Roman", Times, serif;
@@ -133,8 +120,7 @@ body{
   font-weight: normal;
   padding-bottom: 28px;
   letter-spacing: 0px;
-  font-style: italic;
-}
+  font-style: italic; }
 
 .author {
   font-family: "trebuchet ms",arial;
@@ -142,16 +128,14 @@ body{
   color: #484848;
   line-height: 22px;
   font-weight: normal;
-  text-align: left;
-}
+  text-align: left; }
 
 p {
   font-family: "trebuchet ms", arial;
   font-size: 14px;
   color: #484848;
   line-height: 21px;
-  text-align: left;
-}
+  text-align: left; }
 
 .bigletter {
   float: left;
@@ -159,23 +143,19 @@ p {
   line-height: 0.8;
   margin-left: 0px;
   color: #dc3407;
-  font-family: "trebuchet ms", arial;
-}
+  font-family: "trebuchet ms", arial; }
 
 .cen {
-  text-align: center;
-}
+  text-align: center; }
 
 .vidbox {
   max-width: 480px;
   margin: auto;
-  border: 4px double #d7d0ab;
-  img{
+  border: 4px double #d7d0ab; }
+  .vidbox img {
     width: 100%;
     min-height: 320px;
-    max-width: 480px;
-  }
-}
+    max-width: 480px; }
 
 .head4 {
   font-family: "trebuchet ms", arial, "Times New Roman", Times, serif;
@@ -187,11 +167,10 @@ p {
   padding-bottom: 3px;
   letter-spacing: 0px;
   padding-top: 3px;
-  font-style: italic;
-}
+  font-style: italic; }
 
 li {
-  background-image: url(/images/t2_09.jpg);
+  background-image: url(images/t2_09.jpg);
   background-repeat: no-repeat;
   background-position: 0 .00em;
   padding-left: 2.0em;
@@ -200,16 +179,14 @@ li {
   font-size: 15px;
   color: #484848;
   line-height: 15pt;
-  text-align: left;
-}
+  text-align: left; }
 
 ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
   padding-top: 10px;
-  margin-left: 14px;
-}
+  margin-left: 14px; }
 
 .signature {
   font-family: "trebuchet ms", arial;
@@ -219,8 +196,7 @@ ul {
   text-align: left;
   font-weight: bold;
   font-style: italic;
-  padding-bottom: 20px;
-}
+  padding-bottom: 20px; }
 
 .ps {
   font-family: "trebuchet ms", arial;
@@ -231,8 +207,7 @@ ul {
   font-weight: normal;
   font-style: normal;
   padding-top: 5px;
-  padding-bottom: 17px;
-}
+  padding-bottom: 17px; }
 
 .guarantee-head {
   font-family: "trebuchet ms",arial, "Times New Roman", Times, serif;
@@ -244,8 +219,7 @@ ul {
   font-weight: bold;
   margin-left: 0px;
   margin-bottom: 0px;
-  padding: 0px 0px;
-}
+  padding: 0px 0px; }
 
 .guarantee-text {
   font-family: arial;
@@ -256,18 +230,15 @@ ul {
   padding-bottom: 0px;
   text-align: left;
   padding: 5px 0px;
-  padding-top: 14px;
-}
+  padding-top: 14px; }
 
 .guarantee-table {
   border: 1px dashed #cccccc;
   background-color: #f1f1f1;
   padding: 16px;
   max-width: 500px;
-  margin: auto;
-}
+  margin: auto; }
 
-//
 .bonus-head {
   font-family: "trebuchet ms", arial, "Times New Roman", Times, serif;
   font-size: 18px;
@@ -277,11 +248,8 @@ ul {
   font-style: normal;
   font-weight: bold;
   padding-bottom: 6px;
-  padding-top: 0px;
-}
-.bonus2 {
-  //background: url(../images/t2_16.jpg) repeat-y;
-}
+  padding-top: 0px; }
+
 .bonus-text {
   font-family: "trebuchet ms", arial, "Times New Roman", Times, serif;
   font-size: 12px;
@@ -289,39 +257,33 @@ ul {
   color: #e8e8e8;
   font-style: normal;
   padding: 0px 30px;
-  padding-top: 0px;
-}
-.os-bonus{
+  padding-top: 0px; }
+
+.os-bonus {
   max-width: 580px;
   margin: auto;
   border-radius: 9px;
   background-color: #3b3b3b;
-  box-shadow: 0 0 5px rgba(0,0,0,1), inset -5px -10px 15px rgba(20,20,20,0.8);
-
-  .bonus1{
+  box-shadow: 0 0 5px black, inset -5px -10px 15px rgba(20, 20, 20, 0.8); }
+  .os-bonus .bonus1 {
     background-color: black;
-    border-radius: 9px;
-  }
-  .bonus2{
+    border-radius: 9px; }
+  .os-bonus .bonus2 {
     padding-top: 10px;
-    padding-bottom: 15px;
-  }
-}
+    padding-bottom: 15px; }
 
-.mail{
+.mail {
   max-width: 600px;
   margin: auto;
   border: 2px solid #cb371b;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 0 5px rgba(0,0,0,0.7);
-
-  .product1 {
-    background: url('/image/mail.png');
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.7); }
+  .mail .product1 {
+    background: url("images/mail.png");
     background-repeat: repeat-x;
-    background-size: auto 100%;
-  }
-  .product-head {
+    background-size: auto 100%; }
+  .mail .product-head {
     font-family: "trebuchet ms",tahoma, "Times New Roman", Times, serif;
     font-size: 23px;
     color: #ffffff;
@@ -329,32 +291,26 @@ ul {
     text-align: center;
     font-style: normal;
     font-weight: bold;
-    padding-bottom: 1px;
-  }
-  .product-text {
+    padding-bottom: 1px; }
+  .mail .product-text {
     font-family: arial, "Times New Roman", Times, serif;
     font-size: 14px;
     line-height: 20px;
     color: #000000;
     font-style: normal;
-    padding: 20px;
-  }
-}
+    padding: 20px; }
 
-.os-message{
+.os-message {
   max-width: 600px;
   margin: auto;
-  border:2px solid white;
+  border: 2px solid white;
   border-radius: 12px;
-  box-shadow: 0 0 8px rgba(150,150,150,0.8), inset 0px 0px 15px rgba(220,220,220,1);
-  background-color: #fbfbfb;
-
-  .testimonial1{
+  box-shadow: 0 0 8px rgba(150, 150, 150, 0.8), inset 0px 0px 15px gainsboro;
+  background-color: #fbfbfb; }
+  .os-message .testimonial1 {
     background-color: #e2e3dd;
-    border-radius: 12px;
-  }
-
-  .testimonial-head {
+    border-radius: 12px; }
+  .os-message .testimonial-head {
     font-family: "trebuchet ms", tahoma, "Times New Roman", Times, serif;
     font-size: 18px;
     color: #535649;
@@ -362,9 +318,8 @@ ul {
     text-align: center;
     font-style: italic;
     font-weight: bold;
-    padding-top: 4px;
-  }
-  .testimonial-text {
+    padding-top: 4px; }
+  .os-message .testimonial-text {
     font-family: "trebuchet ms", arial, "Times New Roman", Times, serif;
     font-size: 13px;
     line-height: 21px;
@@ -372,9 +327,7 @@ ul {
     font-style: italic;
     padding: 0px 25px;
     padding-top: 5px;
-    text-align: left;
-  }
-}
+    text-align: left; }
 
 .footer {
   font-family: verdana;
@@ -387,16 +340,14 @@ ul {
   margin-top: 0px;
   padding-bottom: 14px;
   position: relative;
-  top: 15px;
-}
+  top: 15px; }
 
 .footer a {
   font-family: verdana;
   font-size: 11px;
   color: #868686;
   text-decoration: none;
-  text-align: center;
-}
+  text-align: center; }
 
 .optinbox {
   border: 4px dashed #c55326;
@@ -406,27 +357,22 @@ ul {
   color: black;
   max-width: 350px;
   margin: auto;
-  padding: 35px 30px;
-
-  .optintext {
+  padding: 35px 30px; }
+  .optinbox .optintext {
     text-align: center;
     font-weight: bold;
-    font-size: 16px;
-  }
-  .optinprivacy a {
+    font-size: 16px; }
+  .optinbox .optinprivacy a {
     font-size: 9px;
     text-align: center;
-    color: gray;
-  }
-  div{
+    color: gray; }
+  .optinbox div {
     margin-bottom: 10px;
-    text-align: center;
-    span{
+    text-align: center; }
+    .optinbox div span {
       display: inline-block;
-      min-width: 50px;
-    }
-  }
-  .optinsubmit {
+      min-width: 50px; }
+  .optinbox .optinsubmit {
     width: 200px;
     height: 60px;
     font-family: "trebuchet ms", arial;
@@ -434,22 +380,15 @@ ul {
     font-weight: bold;
     background-color: #df3c0e;
     border: 2px inherit #c55326;
-    color: white;
-  }
-}
+    color: white; }
 
 @media screen and (max-width: 800px) {
-  .full{
+  .full {
     padding-left: 20px;
-    padding-right: 20px;
-  }
-}
+    padding-right: 20px; } }
 
 @media screen and (max-width: 450px) {
-  .testimonial-text img, .product-text img, .bonus-text img, .guarantee-text img{
-    width: 100% ;
-  }
-  .bg-lleft, .bg-rright, .bg-left, .bg-top, .bg-right, .bg-bleft, .bg-bottom, .bg-bright{
-    display: none;
-  }
-}
+  .testimonial-text img, .product-text img, .bonus-text img, .guarantee-text img {
+    width: 100%; }
+  .bg-lleft, .bg-rright, .bg-left, .bg-top, .bg-right, .bg-bleft, .bg-bottom, .bg-bright {
+    display: none; } }
