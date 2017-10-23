@@ -181,3 +181,24 @@ ul {
   margin: 0;
   padding-top: 10px;
   margin-left: 14px; }
+
+.signature {
+  font-family: "trebuchet ms", arial;
+  font-size: 17px;
+  color: #484848;
+  line-height: 20px;
+  text-align: left;
+  font-weight: bold;
+  font-style: italic;
+  padding-bottom: 20px; }
+
+.ps {
+  font-family: "trebuchet ms", arial;
+  font-size: 15px;
+  color: #484848;
+  line-height: 20px;
+  text-align: left;
+  font-weight: normal;
+  font-style: normal;
+  padding-top: 5px;
+  padding-bottom: 17px; }
