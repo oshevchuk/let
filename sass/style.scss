@@ -1,5 +1,5 @@
 body {
-  background-color: #0a1828;
+  background-color: #c3bba6;
   margin:0px;
 }
 
@@ -9,8 +9,8 @@ body {
   background-position-y: 1px;
   //min-height: 200px;
   height: 140px;
-  //display: flex;
-  display: block;
+  display: flex;
+
   flex-direction: column;
   align-items: center;
   background-size: calc(100% + 50px ) calc(100% - 1px);
@@ -22,9 +22,9 @@ body {
   .container{
     //border: 2px solid white;
     //border-radius: 10px 10px 0px 0px;
-    border-bottom: none;
-    background-image: url('images/sub_head.png');
-    background-size: 100% 100%;
+    //border-bottom: none;
+    //background-image: url('images/sub_head.png');
+    //background-size: 100% 100%;
     //padding-top: 25px;
     padding-left: 15px;
     padding-right: 15px;
@@ -32,13 +32,13 @@ body {
     //box-shadow: 0px 0px 20px rgba(220, 220, 220, 0.6);
 
 
-    & > div{
-
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      height: 115px;
-    }
+    //& > div{
+    //
+    //  display: flex;
+    //  justify-content: space-between;
+    //  align-items: center;
+    //  height: 115px;
+    //}
   }
 }
 
@@ -47,8 +47,10 @@ body {
   //top:-55px;
   border: 2px solid white;
   border-top:1px solid white;
-  box-shadow: 0px 0px 20px rgba(200,200, 200, 0.8), inset 0px 0px 20px rgba(212,212, 212, 1);
+  box-shadow: 0px 0px 20px rgba(100,100, 100, 0.8), inset 0px 0px 20px rgba(212,212, 212, 1);
   background-color: white;
+
+  border-radius: 15px;
 }
 
 .os-red{
@@ -64,25 +66,25 @@ body {
 }
 
 .header1 {
-  font-family: "arial", tahoma, "Times New Roman", Times, serif;
-  font-size: 40px;
+  font-family: "georgia", tahoma, "Times New Roman", Times, serif;
+  font-size: 46px;
   color: #ffffff;
-  text-align: left;
+  text-align: center;
   font-weight: normal;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-left: 50px;
-  letter-spacing: -2px;
+  padding-bottom: 20px;
+  padding-top: 5px;
+  letter-spacing: -1px;
   font-style: normal;
 }
 
 .header2 {
-  font-family: "arial", tahoma, "Times New Roman", Times, serif;
-  font-size: 20px;
-  color: #1f2c04;
+  font-family: "georgia", tahoma, "Times New Roman", Times, serif;
+  font-size: 18px;
+  color: #045472;
   text-align: center;
   font-weight: normal;
-  //padding-bottom: 42px;
+  padding-bottom: 17px;
+  padding-top: 5px;
   letter-spacing: -1px;
   font-style: italic;
 }
@@ -598,10 +600,10 @@ ul {
     line-height: 4.5vw;
   }
 
-  .header .container > div{
-    flex-direction: column;
-    justify-content: space-around;
-  }
+  //.header .container > div{
+  //  flex-direction: column;
+  //  justify-content: space-around;
+  //}
 }
 
 @media screen and (max-width: 450px) {
