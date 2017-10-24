@@ -12,7 +12,8 @@ body {
 
 .container {
   max-width: 900px;
-  margin: auto; }
+  margin: auto;
+  width: 100%; }
 
 .header1 {
   font-family: "trebuchet ms", tahoma, "Times New Roman", Times, serif;
@@ -21,7 +22,7 @@ body {
   text-align: left;
   font-weight: bold;
   padding-top: 0px;
-  padding-left: 90px;
+  padding-left: 20px;
   padding-bottom: 4px;
   letter-spacing: -2px;
   font-style: italic;
@@ -33,9 +34,9 @@ body {
   color: #ffffff;
   text-align: left;
   font-weight: normal;
-  padding-top: 0px;
+  padding-top: 30px;
   padding-bottom: 26px;
-  padding-left: 90px;
+  padding-left: 20px;
   letter-spacing: -1px;
   font-style: italic;
   text-transform: uppercase; }
