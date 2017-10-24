@@ -5,16 +5,17 @@ body {
 
 .header {
   width: 100%;
-  background-image: url('./images/header.png');
-  background-position-y: 1px;
+  background-image: url('images/header.png');
+  background-size: auto 100%;
+  background-position-y: 3px;
   //min-height: 200px;
   height: 140px;
   display: flex;
 
   flex-direction: column;
   align-items: center;
-  background-size: calc(100% + 50px ) calc(100% - 1px);
-  padding-top: 8px;
+  //background-size: calc(100% + 50px ) calc(100% - 1px);
+  //padding-top: 8px;
 
   position: relative;
 
@@ -25,8 +26,8 @@ body {
     //border: 2px solid white;
     //border-radius: 10px 10px 0px 0px;
     //border-bottom: none;
-    //background-image: url('images/sub_head.png');
-    //background-size: 100% 100%;
+    background-image: url('images/sub_head.png');
+    background-size: 100% 100%;
     //padding-top: 25px;
     padding-left: 15px;
     padding-right: 15px;
@@ -67,13 +68,13 @@ body {
 }
 
 .header1 {
-  font-family: "georgia", tahoma, "Times New Roman", Times, serif;
-  font-size: 46px;
-  color: #ffffff;
+  font-family: "trebuchet ms", tahoma, "Times New Roman", Times, serif;
+  font-size: 52px;
+  color: #efffff;
   text-align: center;
-  font-weight: normal;
-  padding-bottom: 20px;
-  padding-top: 5px;
+  font-weight: bold;
+  padding-bottom: 0px;
+  padding-top: 15px;
   letter-spacing: -1px;
   font-style: normal;
 
@@ -91,14 +92,14 @@ body {
   letter-spacing: -1px;
   font-style: italic;
 
-  padding: 5px 10px;
-  position: absolute;
-  bottom: -2px;
-  background-color: #a1dbf1;
-  border-radius: 10px 10px 0px 0px;
-  background-image: url('images/sbg.png');
-  background-size: auto 100%;
-  border-bottom: 1px solid #c2e4f0;
+  //padding: 5px 10px;
+  //position: absolute;
+  //bottom: -2px;
+  //background-color: #a1dbf1;
+  //border-radius: 10px 10px 0px 0px;
+  //background-image: url('images/sbg.png');
+  //background-size: auto 100%;
+  //border-bottom: 1px solid #c2e4f0;
 }
 
 .bg-left {
