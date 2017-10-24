@@ -1,0 +1,1352 @@
+<body class="os-body">
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+{{ 'normalize.css' | asset_url | stylesheet_tag }} {{ 'PM-webflow.css' | asset_url | stylesheet_tag }} {{
+'power-meal-introduction.webflow.css' | asset_url | stylesheet_tag }}
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js">
+</script>
+<script type="text/javascript">
+    WebFont.load({
+        google: {
+            families: ["Oswald:200,300,400,500,600,700", "Roboto:100,300,regular,500,700,900"]
+        }
+    });
+</script>
+<!-- [if lt IE 9]>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script>
+<![endif] -->
+
+<script type="text/javascript">
+    !function (o, c) {
+        var n = c.documentElement, t = " w-mod-";
+        n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
+    }(window, document);
+</script>
+{% if settings.favicon != nil %}
+<link href="{{ settings.favicon | img_url }}" rel="shortcut icon" type="image/x-icon">
+{% else %}
+<link href="{{ 'favicon.png' | asset_url }}" rel="shortcut icon" type="image/x-icon">
+{% endif %} {% layout none %}
+
+<div class="page-wrapper">
+    <div class="main-section section">
+        <div class="logo">
+            <a class="w-inline-block" href="https://www.bodyhealth.com"><img class="image" sizes="225px"
+                                                                             src="https://cdn.shopify.com/s/files/1/0835/8481/t/43/assets/BodyHealth-Logo_4color_Final-01_271f998e-7364-4d24-a54b-2f445edf9a10.png"
+                                                                             srcset="https://cdn.shopify.com/s/files/1/0835/8481/t/43/assets/BodyHealth-Logo_4color_Final-01_271f998e-7364-4d24-a54b-2f445edf9a10-p-500.png 500w, https://cdn.shopify.com/s/files/1/0835/8481/t/43/assets/BodyHealth-Logo_4color_Final-01_271f998e-7364-4d24-a54b-2f445edf9a10-p-800.png 800w, https://cdn.shopify.com/s/files/1/0835/8481/t/43/assets/BodyHealth-Logo_4color_Final-01_271f998e-7364-4d24-a54b-2f445edf9a10-p-1080.png 1080w, https://cdn.shopify.com/s/files/1/0835/8481/t/43/assets/BodyHealth-Logo_4color_Final-01_271f998e-7364-4d24-a54b-2f445edf9a10-p-1600.png 1600w, https://cdn.shopify.com/s/files/1/0835/8481/t/43/assets/BodyHealth-Logo_4color_Final-01_271f998e-7364-4d24-a54b-2f445edf9a10.png 2667w"></a>
+        </div>
+    </div>
+
+
+    <div class="hero-section section os-clear">
+        <div class="w-container">
+            <div class="partial-row w-row os-header">
+                <div class="w-col-9">
+                    <div class="main-header-content ">
+                        <h1 class="heading main-header">Why Most Weight Loss Supplements </h1>
+                        <h1 class="heading main-header">and Programs Fail - and How </h1>
+                        <h1 class="heading main-header">You Can Succeed</h1>
+
+                        <h4>By Focusing on 4 key links in the metabolic chain,</h4>
+                        <h4> you can get real results where others fail. </h4>
+                        <!--                   <button class="btn-order" style="margin-bottom: 10px;">Order Now!</button> -->
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- 		<div class="section slim-section vid-section">
+                <div class="w-container">
+                    <div class="intro-text w-richtext center">
+                      <h4><strong>By Focusing on 4 key links in the metabolic chain, you can get <br>real
+                          results where others fail. </strong></h2>
+                      <button class="btn-order">Order Now!</button>
+                    </div>
+                </div>
+            </div> -->
+
+    <div class="section slim-section">
+        <div class="w-container os-start">
+
+            <div class="intro-text w-richtext">
+                <br>
+                <div class="center-row os-head-content">
+                    <div class="w-col-8" style="padding-right: 30px;">
+                        <p style="text-align: left;">
+                            <b class="os-h2">First of all, let’s get clear about something obvious: the weight-loss
+                                industry is an industry.</b>
+                        </p>
+                        <p>It exists for profit. And the truth is that a lot of products are built around profitability
+                            instead of science, medical viability, or results.
+                            Sometimes some their solutions work for some people. But a lot of time they don’t.
+                            If they did, the multi-billion dollar weight loss industry would have solved all our
+                            problems already and sold itself out of business. Clearly that hasn’t happened.</p>
+                        <p style="text-align: left;">
+                            <b class="os-h2">Why is that?</b>
+                        </p>
+                        <p>Because how our body metabolizes food and stores fat is a very complex process with many
+                            different steps. In any given person it was a combination of things that created the extra
+                            weight in the first place</p>
+                        <p style="text-align: left;">
+                            <b class="os-h2">Doesn’t it make sense that you’d need a combination of things to help lose
+                                it?</b>
+                        </p>
+                        <p>At the same time, any random combination of supplements and diet won’t work either. The
+                            different components of your metabolic biochemistry are highly complex and have dozens of
+                            feedback mechanisms and interactions.
+                            You need to be deliberate in what ingredients you combine.
+                            It needs to be strategic. </p>
+                        <p>The wrong combinations of ingredients could just cancel each other out. Or worse, create
+                            unforeseen problems and damage your body.
+                            Pharmaceuticals are even more dangerous, with insane lists of side effects like rectal
+                            bleeding, high blood pressure, changing your sense of taste, insomnia, and migraine
+                            headaches.</p>
+                        <p>
+                            <b class="os-h2">So what is the solution? </b>
+                        </p>
+
+
+                    </div>
+                    <div class="w-col-4 os-about">
+                        <div class="img-about">
+                            <img src="https://cdn.shopify.com/s/files/1/0835/8481/t/55/assets/DrM-Hex-Image.png?16543479537311623723"
+                                 width="100%">
+                        </div>
+                        <div class="text-about">
+                            <h5>
+                                <center><b>David I. Minkoff M.D.</b></center>
+                            </h5>
+                            <p>
+                                Dr. Minkoff graduated from the University of Wisconsin Medical School in 1974 and was
+                                elected to the “Phi Beta Kappa” of medical schools, the prestigious Alpha Omega Alpha
+                                Honors Medical Fraternity for very high academic achievement. He then worked as an
+                                attending physician in infectious disease, co-directed a neo-natal intensive care unit
+                                and worked in emergency medicine until 1995.
+
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-col-12">
+                    <p>A supplement strategically designed to target the key metabolic components of weight loss to help
+                        get you real results, buffer your body against the potential problems that come with weight
+                        loss, and keep you feeling energized.</p>
+                </div>
+
+
+                <div class="comments os-list">
+                    <h4>According to the CDC Obesity is directly linked to increased risk of: </h4>
+                    <div class="center-row">
+
+                        <div class="w-col-4">
+                            <ul>
+                                <li>Diabetes</li>
+                                <li>Cardiovascular disease</li>
+                            </ul>
+                        </div>
+                        <div class="w-col-4">
+                            <ul>
+                                <li>Stroke</li>
+                                <li>Mental Illness</li>
+                            </ul>
+                        </div>
+                        <div class="w-col-4">
+                            <ul>
+                                <li>Body Pain</li>
+                                <li>Cancer</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+
+                    <br>
+                    <p><i> How do your loved ones feel about that? </i></p>
+                </div>
+
+            </div>
+            <a name="continue"></a>
+
+        </div>
+    </div>
+
+
+    <div class="section-showcase site-header-showcase os-light-grey">
+        <div class="w-container">
+            <div class="">
+                <h4 class="heading-2-showcase">The 4 Levers You Can Use to Really Lose Weight – even <br> without
+                    exercise! </h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="section slim-section site-header-section" style="background-color: white;">
+        <div class="w-container os-image-corner">
+            <div class="intro-text w-richtext">
+                <p><b>There are 4 critical links in the chain of metabolism where you can influence weight
+                    loss. It’s all about pulling these metabolic levers in just the right way to get your body to
+                    work at getting that weight off for you.</b></p>
+            </div>
+
+            <!--                -->
+            <div class="partial-row w-row center-row">
+                <div class="w-col w-col-7">
+                    <h4 class="os-h2">1. What You Eat</h4>
+                    <p>What you eat is every bit as important as how much. Different kinds of food are processed
+                        differently by your body. You can use your diet to biochemically stack the deck in your favor
+                        for shedding pounds instead of putting them on. </p>
+                </div>
+                <div class="w-col w-col-5">
+                    <div class="image-holder">
+                        <!--                           <img sizes="(max-width: 767px) 90vw, (max-width: 991px) 46vw, 460px" src="https://cdn.shopify.com/s/files/1/0835/8481/t/55/assets/os-171589019.jpg?8262363630029280896" srcset="https://cdn.shopify.com/s/files/1/0835/8481/t/43/assets/DrMinkoff-Hex-2017.png 1080w, https://cdn.shopify.com/s/files/1/0835/8481/t/43/assets/DrMinkoff-Hex-2017.png 1254w"> -->
+                        <img src="https://cdn.shopify.com/s/files/1/0835/8481/t/56/assets/1._What_You_Eat.jpeg?13058511257123168671"
+                             class="os-image">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="partial-row w-row center-row right">
+                <div class="w-col w-col-5">
+                    <div class="image-holder">
+                        <!--                           <img sizes="(max-width: 767px) 90vw, (max-width: 991px) 46vw, 460px" src="https://cdn.shopify.com/s/files/1/0835/8481/files/DrMinkoff-Hex-2017.png" srcset="https://cdn.shopify.com/s/files/1/0835/8481/t/43/assets/DrMinkoff-Hex-2017.png 1080w, https://cdn.shopify.com/s/files/1/0835/8481/t/43/assets/DrMinkoff-Hex-2017.png 1254w"> -->
+                        <img src="https://cdn.shopify.com/s/files/1/0835/8481/t/56/assets/2._How_Much_You_Eat.jpeg?13058511257123168671"
+                             class="os-image">
+                    </div>
+                </div>
+                <div class="w-col w-col-7">
+                    <h4 class="os-h2">2. How Much You Eat</h4>
+                    <p>This is where many programs focus. This is also where most
+                        programs fail – nobody likes to starve! Before taking a single
+                        bite, the impulse to eat begins with a signal in your brain that
+                        tells you you’re hungry. By reducing that signal, you reduce
+                        your appetite and begin using your stored energy. </p>
+                </div>
+
+            </div>
+
+            <div class="partial-row w-row center-row">
+                <div class="w-col w-col-7">
+                    <h4 class="os-h2">3. Fat Storage</h4>
+                    <p>Carbs like sugar are the #1 source of body fat. By naturally
+                        reducing carb absorption, you stop storing fat and begin
+                        burning it. </p>
+                </div>
+                <div class="w-col w-col-5">
+                    <div class="image-holder">
+                        <!--                           <img sizes="(max-width: 767px) 90vw, (max-width: 991px) 46vw, 460px" src="https://cdn.shopify.com/s/files/1/0835/8481/files/DrMinkoff-Hex-2017.png" srcset="https://cdn.shopify.com/s/files/1/0835/8481/t/43/assets/DrMinkoff-Hex-2017.png 1080w, https://cdn.shopify.com/s/files/1/0835/8481/t/43/assets/DrMinkoff-Hex-2017.png 1254w"> -->
+                        <img src="https://cdn.shopify.com/s/files/1/0835/8481/t/56/assets/3._Fat_Storage.jpeg?13058511257123168671"
+                             class="os-image">
+                    </div>
+                </div>
+            </div>
+
+            <div class="partial-row w-row center-row right">
+                <div class="w-col w-col-5">
+                    <div class="image-holder">
+                        <!--                           <img sizes="(max-width: 767px) 90vw, (max-width: 991px) 46vw, 460px" src="https://cdn.shopify.com/s/files/1/0835/8481/files/DrMinkoff-Hex-2017.png" srcset="https://cdn.shopify.com/s/files/1/0835/8481/t/43/assets/DrMinkoff-Hex-2017.png 1080w, https://cdn.shopify.com/s/files/1/0835/8481/t/43/assets/DrMinkoff-Hex-2017.png 1254w"> -->
+                        <img src="https://cdn.shopify.com/s/files/1/0835/8481/t/56/assets/4._Fat_Metabolism.jpeg?13058511257123168671"
+                             class="os-image">
+                    </div>
+                </div>
+
+                <div class="w-col w-col-7">
+                    <h4 class="os-h2">4. Fat Metabolism</h4>
+                    <p>Medicinal plants used for thousands of years that have an
+                        incredible effect on stimulating fat metabolism, reducing your waistline inch by inch, day by
+                        day. </p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- <div class="section hero-section">
+          <div class="w-container" style="text-align: center;">
+            <h2>Heard enough? Click <a class="order-here" href="#">HERE</a> to order now!</h2>
+            <h4>You're protected by a 100% Satisfaction Guarantee</h4>
+          </div>
+        </div> -->
+
+
+        <div class="section site-section os-light-grey">
+            <div class="w-container">
+                <h2 class="heading-2" style=" margin-top: 15px;">The Risks of Weight Loss: What You Need to Know</h2>
+            </div>
+        </div>
+        <div class="section site-section">
+            <div class="w-container">
+                <center>
+                    <h2 style="font-size: 24px;">But before we get into the nuts and bolts of how to address these
+                        points, there’s another side of
+                        weight loss almost nobody is talking about: </h2>
+                    <!--                   <img src="https://nextchargenetwork-542e.kxcdn.com/img/compressed/arrowDown.png" width="150px"> -->
+                </center>
+
+            </div>
+        </div>
+
+
+        <div class="section slim-section">
+            <div class="w-container">
+                <div class=" w-richtext">
+                    <p>This might strike you as a little counter-intuitive. Losing weight is, after all, one of the most
+                        positive health decisions you can make.
+                        Most people, however, just stress all the benefits – How wonderful your new life as a healthy,
+                        energetic, thin person will be. And it will, to be sure.</p>
+                    <p>But the process carries a certain cost to get there – and not just the pain of longing for that
+                        cupcake. </p>
+                    <h4 class="os-h2">There’s More than Fat in Your Fat</h4>
+                    <p>Adipose tissue, the medical name for fat, is also where toxins end up stored. They can stay there
+                        for years and years, trapped in with your extra pounds. </p>
+                    <h4>
+                        <b>What kinds of toxins? </b>
+                    </h4>
+                    <p>Pesticides from fruit and vegetables. Pharmaceutical drugs. Synthetic hormones from dairy.
+                        Offgassed
+                        plastic from containers. Environmental pollutants from the air and water. Preservatives
+                        from processed food. And that’s just a few.
+                        Your body is dealing with these things all the time. Whatever can’t be processed by your liver
+                        gets packed away into your fat.
+                        So what happens when you start to burn up all that fat and lose weight?</p>
+                    <p>All those stored toxins get released.
+                        This extra toxic load can overload your liver and cause more problems, disrupt your sleep, make
+                        you feel foggy, sluggish, and unfocused. It may not feel good, but it’s actually a good sign!
+                        And fortunately, you can do something about it. </p>
+                    <h4>The Low Energy Slump</h4>
+                    <p>The other risk with weight loss is the low energy slump you can experience. When you begin
+                        restricting calorie intake, your body can have a hard time adjusting and you might feel tired,
+                        and
+                        unmotivated. It might not sound that bad, but these situations are when people start reaching
+                        for
+                        their habitual quick-fixes: fast carbs, unhealthy snacks, and sugary drinks.
+                    </p>
+                    <p>You need clean sources of energy to keep you going through the day and minimize your risk of
+                        weight loss sabotage.
+                        Any comprehensive weight loss system needs to address these two common pitfalls and plan
+                        accordingly. </p>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="section site-header-section os-light-grey">
+            <div class="w-container">
+                <h2 class="heading-2">Introducing Healthy-Thin Energize: a Natural Plant-Based Weight
+                    Loss Formula Strategically Designed by a Doctor</h2>
+            </div>
+        </div>
+
+        <div class="section slim-section">
+            <div class="w-container">
+                <div class=" w-richtext">
+                    <div class="image-holder">
+                        <!--                     <img sizes="(max-width: 767px) 90vw, (max-width: 991px) 46vw, 460px" src="https://cdn.shopify.com/s/files/1/0835/8481/files/DrMinkoff-Hex-2017.png" srcset="https://cdn.shopify.com/s/files/1/0835/8481/t/43/assets/DrMinkoff-Hex-2017.png 1080w, https://cdn.shopify.com/s/files/1/0835/8481/t/43/assets/DrMinkoff-Hex-2017.png 1254w"> -->
+                        <!-- 					<img src="https://cdn.shopify.com/s/files/1/0835/8481/files/DSC_0147-MOD-small_large.jpg?9808676161516485317">	 -->
+                        <!--                     <img src="https://i.ytimg.com/vi/FSDC1kw-A5k/maxresdefault.jpg" width="100%"> -->
+                    </div>
+                    <br>
+                    <p>
+                        By following these principles for healthy weight loss, Dr. David Minkoff, founder of Body
+                        Health, has helped hundreds in his clinic safely and permanently lose weight and regain their
+                        health.
+                    </p>
+                    <p>
+                        He has designed a unique weight loss formula that, when combined with the included PaleoStyle
+                        Meal Plan, is guaranteed to help you lose weight.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="w-container center">
+            <h2 style="margin-bottom: 10px; margin-top: 0px; font-size: 26px;">International All-Stars of Traditional
+                Medicine </h2>
+        </div>
+
+        <div class="section slim-section centered">
+            <div class="w-container">
+                <div class="intro-text w-richtext">
+                    <p>
+                        After scouring through the annals of natural and traditional medicine around the world, Dr.
+                        Minkoff found a combination of plants that systematically addresses each of the 3 links in the
+                        metabolic chain to maximize weight loss (the first is covered by the meal plan).
+                    </p>
+                    <p>
+                        And these aren’t just raw plant powder. These are highly concentrated plant extracts, many
+                        times more powerful than just the plant.
+                    </p>
+                </div>
+            </div>
+
+            <div class="w-container">
+                <div class="w-col w-col-5">
+                    <div class="image-holder">
+                        <!--               <img sizes="(max-width: 767px) 90vw, (max-width: 991px) 46vw, 460px" src="https://cdn.shopify.com/s/files/1/0835/8481/files/DrMinkoff-Hex-2017.png" srcset="https://cdn.shopify.com/s/files/1/0835/8481/t/43/assets/DrMinkoff-Hex-2017.png 1080w, https://cdn.shopify.com/s/files/1/0835/8481/t/43/assets/DrMinkoff-Hex-2017.png 1254w"> -->
+                        <img src="https://cdn.shopify.com/s/files/1/0835/8481/t/56/assets/Product-Ingredients-Images-Hoodia.png?13058511257123168671"
+                             class="os-image">
+                    </div>
+                </div>
+
+                <div class="w-col w-col-7 right_">
+                    <h2>Curb Cravings with Hoodia Gordonia</h2>
+                    <p>
+                        An ancient herb used by the San Bushmen of South Africa to stave off hunger in lean times. It
+                        contains a special protein called P-57 that acts on the brain’s hunger center and reduce food
+                        cravings.*
+                    </p>
+                </div>
+            </div>
+
+
+            <!--          -->
+            <div class="w-container">
+                <div class="w-col w-col-7">
+                    <h2>Block Fat Storage with Salucia Reticulata </h2>
+                    <p>
+                        This ayurvedic herb has been used for thousands of years to treat diabetes and other metabolic
+                        conditions. It works by acting to decrease carbohydrate absorption. Carbs spike insulin levels
+                        and are stored as fat in your body.*
+                    </p>
+                    <p>Block the carbs, block the fat. </p>
+                </div>
+
+                <div class="w-col w-col-5">
+                    <div class="image-holder">
+                        <!--               <img sizes="(max-width: 767px) 90vw, (max-width: 991px) 46vw, 460px" src="https://cdn.shopify.com/s/files/1/0835/8481/files/DrMinkoff-Hex-2017.png" srcset="https://cdn.shopify.com/s/files/1/0835/8481/t/43/assets/DrMinkoff-Hex-2017.png 1080w, https://cdn.shopify.com/s/files/1/0835/8481/t/43/assets/DrMinkoff-Hex-2017.png 1254w"> -->
+                        <img src="https://cdn.shopify.com/s/files/1/0835/8481/t/56/assets/Product-Ingredients-Images-Salcucia.png?13058511257123168671"
+                             class="os-image">
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="w-container">
+
+
+                <div class="w-col w-col-5">
+                    <div class="image-holder">
+                        <!--               <img sizes="(max-width: 767px) 90vw, (max-width: 991px) 46vw, 460px" src="https://cdn.shopify.com/s/files/1/0835/8481/files/DrMinkoff-Hex-2017.png" srcset="https://cdn.shopify.com/s/files/1/0835/8481/t/43/assets/DrMinkoff-Hex-2017.png 1080w, https://cdn.shopify.com/s/files/1/0835/8481/t/43/assets/DrMinkoff-Hex-2017.png 1254w"> -->
+                        <img class="os-image"
+                             src="https://cdn.shopify.com/s/files/1/0835/8481/t/56/assets/Product-Ingredients-Images-Bitter-Melon.png?13058511257123168671">
+                    </div>
+                </div>
+                <div class="w-col w-col-7 right_">
+                    <h2>Burn Fat With Bitter Melon</h2>
+                    <p>
+                        Momordica charantia is so effective it is used around the world from Japan to South America. It
+                        can lower blood sugar and cholesterol, improve glucose regulation, and, more importantly,
+                        stimulate the burning of stored fat.*
+                    </p>
+                </div>
+            </div>
+            <!--          -->
+            <div class="w-container">
+                <div class="w-col w-col-7 ">
+                    <h2>Cha de Bugre</h2>
+                    <p>
+                        Keep your energy levels high with Brazillian “Coffee of the Woods,” famous for powering
+                        all-night festivals and the little-known secret behind the Brazillian bikini body.*
+                    </p>
+                </div>
+
+                <div class="w-col w-col-5">
+                    <div class="image-holder">
+                        <!--               <img sizes="(max-width: 767px) 90vw, (max-width: 991px) 46vw, 460px" src="https://cdn.shopify.com/s/files/1/0835/8481/files/DrMinkoff-Hex-2017.png" srcset="https://cdn.shopify.com/s/files/1/0835/8481/t/43/assets/DrMinkoff-Hex-2017.png 1080w, https://cdn.shopify.com/s/files/1/0835/8481/t/43/assets/DrMinkoff-Hex-2017.png 1254w"> -->
+                        <img class="os-image"
+                             src="https://cdn.shopify.com/s/files/1/0835/8481/t/56/assets/Product-Ingredients-Images-Cha-de-Bugre.png?13058511257123168671">
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="w-container">
+
+
+                <div class="w-col w-col-5">
+                    <div class="image-holder">
+                        <!--               <img sizes="(max-width: 767px) 90vw, (max-width: 991px) 46vw, 460px" src="https://cdn.shopify.com/s/files/1/0835/8481/files/DrMinkoff-Hex-2017.png" srcset="https://cdn.shopify.com/s/files/1/0835/8481/t/43/assets/DrMinkoff-Hex-2017.png 1080w, https://cdn.shopify.com/s/files/1/0835/8481/t/43/assets/DrMinkoff-Hex-2017.png 1254w"> -->
+                        <img src="https://cdn.shopify.com/s/files/1/0835/8481/t/56/assets/Product-Ingredients-Images-Metabolic-support.png?13058511257123168671"
+                             class="os-image">
+                    </div>
+                </div>
+                <div class="w-col w-col-7 right_">
+                    <h2>Metabolic Support Formula</h2>
+                    <p>
+                        Extracts of Dandelion Root, Parsley, and Buchu to help you safely process the extra toxic load
+                        created by fat metabolism*
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div class="section slim-section">
+            <div class="w-container">
+                <center><h2 style="margin-bottom: 20px; margin-top: 0px;">Plus Essential Vitamins for Maximum
+                    Results </h2></center>
+                <p>
+                    In addition to this incredible roster of powerful herbs, we also include metabolism-boosting
+                    vitamins to accelerate your weight loss.
+                </p>
+                <p>
+                    <b>Vitamin B6</b> is crucial for carbohydrate and fat metabolism, so it’s an important one to help
+                    you burn those extra pounds.
+                </p>
+                <p>
+                    A relative of the B-vitamins is <b>inositol</b>. You can think of it like insulin’s assistant. It
+                    helps by
+                    putting insulin’s signal to work inside the cells. Better processing of insulin’s message translates
+                    to more weight loss and higher energy levels.
+                </p>
+                <p>
+                    <b>Choline Bitartrate</b> is another compound essential for metabolism and is used by many different
+                    systems in your body and brain. It helps keep your energy up and is involved in healthy liver
+                    function – the organ that helps turn your fat into energy
+                </p>
+
+
+            </div>
+
+        </div>
+
+
+        <div class="section slim-section">
+            <div class="w-container">
+                <center><h2 style="margin-bottom: 20px; margin-top: 0px;">Now With Extra Antioxidant Protection</h2>
+                </center>
+                <p>
+                    After the original formulation, Dr. Minkoff felt there was something still missing. So he went back
+                    to the drawing board and found one last hole in his approach.
+                </p>
+                <p>
+                    Increasing metabolism and releasing stored toxins both have one extra side effect o address:
+                    free-radicals in the body. Free radicals oxidize and corrode cellular membranes, damage DNA, destroy
+                    proteins, and can even cause cell death.
+                </p>
+                <p>
+                    As a solution, Dr. Minkoff turned to one of the richest antioxidant sources and polyphenols
+                    nature has to offer: <b>Coffee Berry Extract.</b> These compounds neutralize free-radicals and help
+                    maintain healthy, normal function of all your cell’s processes.
+                </p>
+            </div>
+        </div>
+
+        <div class="os-comments">
+            <div class="w-container">
+
+                <div class="rating">
+                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                </div>
+
+                <i>"I like this product because I feel it gives me a boost in energy and metabolism but isn't an
+                    unhealthy "diet pill". I learned about this product through a health coach and I've been a fan ever
+                    since."”</i>
+                <b>- Karri C.</b>
+            </div>
+        </div>
+
+        <div class="hero-section section">
+            <div class="w-container">
+                <h2 class="heading-2">HealthyThin-Energize is the real deal</h2>
+            </div>
+        </div>
+
+        <div class="section slim-section">
+            <div class="w-container">
+                <!--           <h4> -->
+                <!--             <b>HealthyThin-Energize is the real deal</b> -->
+                <!--           </h4> -->
+                <p>There are no products like this out there on the market that have so carefully and diligently
+                    targeted the key metabolic processes to support you in losing weight. </p>
+                <p>We are so confident that this will get you results we will give you 90 Days, three whole months,
+                    to see if it’s right for you. If you follow our program, eat a healthy diet, and even use the entire
+                    bottle but just aren’t satisfied with the results – just call our support staff and we’ll issue you
+                    a
+                    prompt, full refund of your money. No hassles. No questions asked. </p>
+                <h4>
+                    <b>Why?</b>
+                </h4>
+                <p>
+                    Because we care about your results, not your money. We care about your health. If it’s not
+                    working for you like it has for thousands of others, then we don’t believe you shouldn’t pay.
+                    Sound fair?
+                </p>
+            </div>
+        </div>
+
+        <div class="section slim-section">
+            <div class="w-container plan">
+                <div class="w-col w-col-6">
+                    <h4>Includes FREE Meal Plan!</h4>
+                    <p>This is not available in stores. There are no generic copycats.</p>
+                    <p>For just over a dollar a day, you can get Dr. Minkoff’s advanced HealthyThin-Energize
+                        formula.</p>
+                    <p>Take a powerful step to a healthier, happier, more vibrant you, <u>today</u>. </p>
+                </div>
+                <div class="w-col w-col-6">
+                    <div class="image-holder">
+                        <img src="https://cdn.shopify.com/s/files/1/0835/8481/t/56/assets/7-day-meal-plan.png?2831869077665918716"
+                             class="os-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--       <div class="section slim-section"> -->
+        <!-- 		<div class="w-container"> -->
+        <!--           <p><b>Have some lingering questions? Here are some of our most commonly asked questions:</b></p>       -->
+        <!--         </div> -->
+        <!--       </div> -->
+
+
+        <!--        -->
+
+        <div class="section slim-section">
+            <div class="w-container">
+                <div class="w-row">
+                    <div class="w-col w-col-4">
+                        <div class="product-container">
+                            <div class="product-header-holder">
+                                <h3 class="product-header">Trial Size - Single Container</h3>
+                            </div>
+
+
+                            <div class="product-body-holder">
+                                <div class="product-image-holder"><img class="image-2"
+                                                                       src="https://cdn.shopify.com/s/files/1/0835/8481/t/43/assets/PM_Mock_Release_Bottle_082217.png">
+                                </div>
+
+
+                                <div class="product-specs">
+                                    <h3 class="price-header">Today's Price</h3>
+
+                                    <hr style="width: 60%;">
+
+
+                                    <h3 class="price-header">
+                                    </h3>
+
+
+                                    <h1 class="price-amount">$69.95</h1>
+
+
+                                    <h4 class="retail-price">1 bottle</h4>
+
+
+                                    <p class="shipping-info">&nbsp;</p>
+
+
+                                    <p class="shipping-info">&nbsp;</p>
+
+
+                                    <p class="product-spec"><span class="product-spec-icon"></span>Equal to 47g of Whey
+                                        protein</p>
+
+
+                                    <p class="product-spec"><span class="product-spec-icon"></span>Fast energy source
+                                    </p>
+
+
+                                    <p class="shipping-info">&nbsp;</p>
+                                    <!-- <p class="promo-code">with Promo Code -                                                                                               </p> -->
+                                </div>
+                            </div>
+
+
+                            <div class="product-footer-holder" id='product-component-3724a2e6638'>
+                                <!--<a class="product-button w-button" href="#">Add to cart</a>-->
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="w-col w-col-4">
+                        <div class="product-container">
+                            <div class="product-header-holder">
+                                <h3 class="product-header">Great Value - 2 Pack</h3>
+                            </div>
+
+
+                            <div class="product-body-holder">
+                                <div class="product-image-holder"><img class="image-2"
+                                                                       src="https://cdn.shopify.com/s/files/1/0835/8481/t/43/assets/PM_Mock_Release_2-Pack_090617.png">
+                                </div>
+
+
+                                <div class="product-specs">
+                                    <h3 class="price-header">Today's Price</h3>
+
+                                    <hr style="width: 60%;">
+
+
+                                    <h3 class="price-header">
+                                    </h3>
+
+
+                                    <h1 class="price-amount">$99.90</h1>
+
+
+                                    <h4 class="retail-price">2 bottles</h4>
+
+
+                                    <h4 class="retail-price">Retail Price - <span
+                                            class="retail-price-amount">$139.90</span></h4>
+
+
+                                    <p class="shipping-info">+ Free Shipping</p>
+
+
+                                    <p class="product-spec"><span class="product-spec-icon"></span>Macro & Micro
+                                        nutrients</p>
+
+
+                                    <p class="product-spec"><span class="product-spec-icon"></span>180 Calories</p>
+
+
+                                    <p class="shipping-info">&nbsp;</p>
+                                    <!-- <p class="promo-code">with Promo Code -
+
+
+
+
+
+
+
+
+                                                                                                                                            <span class="promo-code-red">POWERME</span>
+                                                                                                                                        </p> -->
+                                </div>
+                            </div>
+
+
+                            <div class="product-footer-holder" id='product-component-a9d04784496'>
+                                <!--<a class="product-button w-button" href="#">Add to cart</a>-->
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="w-col w-col-4">
+                        <div class="product-container">
+                            <div class="product-header-holder">
+                                <h3 class="product-header">Best Value - 3 Pack</h3>
+                            </div>
+
+
+                            <div class="product-body-holder">
+                                <div class="product-image-holder"><img class="image-2"
+                                                                       src="https://cdn.shopify.com/s/files/1/0835/8481/t/43/assets/PM_Mock_Release_3-Pack_090617.png">
+                                </div>
+
+
+                                <div class="product-specs">
+                                    <h3 class="price-header">Today's Price</h3>
+
+                                    <hr style="width: 60%;">
+
+
+                                    <h3 class="price-header">
+                                    </h3>
+
+
+                                    <h1 class="price-amount">$139.85</h1>
+
+
+                                    <h4 class="retail-price">3 bottles</h4>
+
+
+                                    <h4 class="retail-price">Retail Price - <span
+                                            class="retail-price-amount">$209.85</span></h4>
+
+
+                                    <p class="shipping-info">+ Free Shipping</p>
+
+
+                                    <p class="product-spec"><span class="product-spec-icon"></span>NO Sugar, Non-GMO,
+                                        Vegan</p>
+
+
+                                    <p class="product-spec"><span class="product-spec-icon"></span>Tastes Amazing!</p>
+
+
+                                    <p class="shipping-info">&nbsp;</p>
+                                    <!-- <p class="promo-code">with Promo Code -
+
+
+
+
+
+
+
+
+                                                                                                                                                <span class="promo-code-red">POWERME</span>
+                                                                                                                                            </p> -->
+                                </div>
+                            </div>
+
+
+                            <div class="product-footer-holder" id='product-component-9a25aef6304'>
+                                <!--<a class="product-button w-button" href="#">Add to cart</a>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- **************************************************************************  -->
+        <div class="promo-section section section-special">
+            <div class="w-container">
+                <div class="w-row">
+                    <div class="w-col w-col-4">
+                        <div class="gurantee-holder"><img class="image-3"
+                                                          src="https://cdn.shopify.com/s/files/1/0835/8481/t/43/assets/Customer-Satisfaction-Guarantee-Badge-and-Sign-509826517_4083x4083-_Converted.png">
+                        </div>
+                    </div>
+
+
+                    <div class="w-col w-col-8">
+                        <div class="gurantee-text-box intro-text-gurantee w-richtext">
+                            <h2>100% SATISFACTION GUARANTEE</h2>
+
+
+                            <p>90-Day Unconditional Satisfaction Guarantee. No-questions-asked!</p>
+
+
+                            <ol>
+                                <li>You will see an improvements in your strength and overall well-being in the first
+                                    few months. Guaranteed or your money back.
+                                </li>
+
+
+                                <li>You will continue to see improvements, because we know PerfectAmino Power Meal works
+                                    for the long-haul. If you don't see improvements or results, or are not satisfied
+                                    with this product for any reason whatsoever, simply return your purchase (including
+                                    the empty bottles) within 90 days for a full refund of every penny you paid,
+                                    including shipping & handling. You only pay return shipping. No questions asked.
+                                </li>
+                            </ol>
+
+
+                            <p>We want you to be very happy with the results you get. Period. End of story.</p>
+                            <a href="http://bodyhealth.com/pages/return-policy" target="_blank"><strong>Read Full Return
+                                Policy</strong></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--        -->
+
+        <div class="hero-section section">
+            <div class="w-container">
+                <h2 class="heading-2">Have some lingering questions? Here are some of most commonly asked questions</h2>
+            </div>
+        </div>
+
+        <div class="section slim-section">
+            <div class="w-container">
+                <h4>Does This Contain Ephedra?</h4>
+                <p>
+                    No, Healthy-Thin Energize does not contain ephedra or any other controversial or illegal
+                    ingredients.
+                </p>
+                <h4>
+                    Are There Interactions with Other Medications?
+                </h4>
+                <p>
+                    There are no reported interactions with other medications. However, because HealthyThin Energize has
+                    multiple actions on your digestive system and metabolism, we recommend you consult your physician if
+                    you are on prescription medications for digestive issues.
+                </p>
+                <h4>
+                    Will This Keep Me Up At Night?
+                </h4>
+                <p>
+                    In most cases, Healthy-Thin Energize should not keep you up at night. It does, however , contain
+                    approximately 70mg of caffeine per capsule derived from Cha de Bugre and Organic Coffee Berry
+                    Extract. To put this in perspective, a 16oz cup of coffee from Starbucks has 400-500mg caffeine per
+                    cup. So if you are sensitive to caffeine, you may want to only take it for breakfast and lunch and
+                    avoid evening servings.
+                </p>
+                <h4>
+                    Are There Any Side Effects?
+                </h4>
+                <p>
+                    Healthy-Thin Energize is produced with the highest-quality, clean and pure ingredients. There have
+                    been no reported side-effects from taking this product
+                </p>
+                <h4> Do I need to be on a specific diet for HealthyThin-Energize to work?? </h4>
+                <p>
+                    As with any weight loss endeavor, it is recommended to eat sensibly. Without reducing your protein
+                    intake, eating fewer carbohydrates and calories is recommended. Some of the active ingredients in
+                    Health Thin Energize act as mild appetite suppressant, whichwill assist in calorie reduction and
+                    avoiding cravings. For best results a Paleo-style diet is highly recommended, which is explained in
+                    detail in the included meal plan.
+                </p>
+                <h4>
+                    Is it important to follow a specific exercise regime with HealthyThin-Energize?
+                </h4>
+                <p>
+                    Regular exercise is an important part of a healthy lifestyle and your results will improve with it,
+                    but it is not required
+                </p>
+            </div>
+        </div>
+
+        <!--       <div>
+                        <center><button class="btn-order">Order Now!</button></center>
+              </div> -->
+
+
+        <!--        -->
+
+
+    </div>
+
+
+    <div class="disclaimer-section section slim-section">
+        <div class="w-container">
+            <div class="disclaimers intro-text w-richtext">
+                <p><strong>* The statements on this webpage have not been evaluated by the Food &amp; Drug
+                    Administration. The products referenced are not intended to diagnose, treat, cure or prevent any
+                    disease."</strong>
+                </p>
+                <!-- No testimonials yet - brand new
+                                                                    <p><strong>** Testimonials appearing on this page are individual experiences of people who have used our nutritional supplements in conjunction with a low-calorie diet, however, as with all products, results may vary</strong></p> -->
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        /*
+
+
+
+
+
+
+
+
+         <![CDATA[*/
+
+        (function () {
+            var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+            if (window.ShopifyBuy) {
+                if (window.ShopifyBuy.UI) {
+                    ShopifyBuyInit();
+                } else {
+                    loadScript();
+                }
+            } else {
+                loadScript();
+            }
+
+            function loadScript() {
+                var script = document.createElement('script');
+                script.async = true;
+                script.src = scriptURL;
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+                script.onload = ShopifyBuyInit;
+            }
+
+            function ShopifyBuyInit() {
+                var client = ShopifyBuy.buildClient({
+                    domain: 'bodyhealth-com.myshopify.com',
+                    apiKey: '35b7031cd47eb599546e20c684375aeb',
+                    appId: '6',
+                });
+
+                ShopifyBuy.UI.onReady(client).then(function (ui) {
+                    ui.createComponent('product', {
+                        id: [142002290714],
+                        variantId: 5835467265,
+                        node: document.getElementById('product-component-3724a2e6638'),
+                        moneyFormat: '%24%7B%7Bamount%7D%7D',
+                        options: {
+                            "product": {
+                                "variantId": "5835467265",
+                                "width": "100%",
+                                "contents": {
+                                    "img": false,
+                                    "imgWithCarousel": false,
+                                    "title": false,
+                                    "variantTitle": false,
+                                    "options": false,
+                                    "price": false,
+                                    "description": false,
+                                    "buttonWithQuantity": false,
+                                    "quantity": false
+                                },
+                                "styles": {
+                                    "product": {
+                                        "@media (min-width: 601px)": {
+                                            "max-width": "100%",
+                                            "margin-left": "0",
+                                            "margin-bottom": "50px"
+                                        }
+                                    },
+                                    "button": {
+                                        "background-color": "#8ed7b0",
+                                        "padding-left": "20px",
+                                        "padding-right": "20px",
+                                        ":hover": {
+                                            "background-color": "#e69200"
+                                        },
+                                        ":focus": {
+                                            "background-color": "#e69200"
+                                        },
+                                        "font-weight": "normal"
+                                    },
+                                    "compareAt": {
+                                        "font-size": "12px"
+                                    }
+                                }
+                            },
+                            "cart": {
+                                "contents": {
+                                    "button": true
+                                },
+                                "styles": {
+                                    "button": {
+                                        "background-color": "#8ed7b0",
+                                        ":hover": {
+                                            "background-color": "#e69200"
+                                        },
+                                        ":focus": {
+                                            "background-color": "#e69200"
+                                        },
+                                        "font-weight": "300",
+                                        "font-family": "Oswald, sans-serif"
+                                    },
+                                    "footer": {
+                                        "background-color": "#ffffff"
+                                    }
+                                }
+                            },
+                            "modalProduct": {
+                                "contents": {
+                                    "img": false,
+                                    "imgWithCarousel": true,
+                                    "variantTitle": false,
+                                    "buttonWithQuantity": true,
+                                    "button": false,
+                                    "quantity": false
+                                },
+                                "styles": {
+                                    "product": {
+                                        "@media (min-width: 601px)": {
+                                            "max-width": "100%",
+                                            "margin-left": "0px",
+                                            "margin-bottom": "0px"
+                                        }
+                                    },
+                                    "button": {
+                                        "background-color": "#8ed7b0",
+                                        "padding-left": "30px",
+                                        "padding-right": "30px",
+                                        ":hover": {
+                                            "background-color": "#e69200"
+                                        },
+                                        ":focus": {
+                                            "background-color": "#e69200"
+                                        },
+                                        "font-weight": "300",
+                                        "font-family": "Oswald, sans-serif"
+                                    }
+                                }
+                            },
+                            "toggle": {
+                                "styles": {
+                                    "toggle": {
+                                        "background-color": "#ffa200",
+                                        ":hover": {
+                                            "background-color": "#e69200"
+                                        },
+                                        ":focus": {
+                                            "background-color": "#e69200"
+                                        },
+                                        "font-weight": "normal"
+                                    }
+                                }
+                            },
+                            "productSet": {
+                                "styles": {
+                                    "products": {
+                                        "@media (min-width: 601px)": {
+                                            "margin-left": "-20px"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    });
+                    ui.createComponent('product', {
+                        id: [141940654106],
+                        variantId: 5835467265,
+                        node: document.getElementById('product-component-a9d04784496'),
+                        moneyFormat: '%24%7B%7Bamount%7D%7D',
+                        options: {
+                            "product": {
+                                "variantId": "5835467265",
+                                "width": "100%",
+                                "contents": {
+                                    "img": false,
+                                    "imgWithCarousel": false,
+                                    "title": false,
+                                    "variantTitle": false,
+                                    "options": false,
+                                    "price": false,
+                                    "description": false,
+                                    "buttonWithQuantity": false,
+                                    "quantity": false
+                                },
+                                "styles": {
+                                    "product": {
+                                        "@media (min-width: 601px)": {
+                                            "max-width": "100%",
+                                            "margin-left": "0",
+                                            "margin-bottom": "50px"
+                                        }
+                                    },
+                                    "button": {
+                                        "background-color": "#8ed7b0",
+                                        "padding-left": "20px",
+                                        "padding-right": "20px",
+                                        ":hover": {
+                                            "background-color": "#e69200"
+                                        },
+                                        ":focus": {
+                                            "background-color": "#e69200"
+                                        },
+                                        "font-weight": "normal"
+                                    },
+                                    "compareAt": {
+                                        "font-size": "12px"
+                                    }
+                                }
+                            },
+                            "cart": {
+                                "contents": {
+                                    "button": true
+                                },
+                                "styles": {
+                                    "button": {
+                                        "background-color": "#8ed7b0",
+                                        ":hover": {
+                                            "background-color": "#e69200"
+                                        },
+                                        ":focus": {
+                                            "background-color": "#e69200"
+                                        },
+                                        "font-weight": "normal"
+                                    },
+                                    "footer": {
+                                        "background-color": "#ffffff"
+                                    }
+                                }
+                            },
+                            "modalProduct": {
+                                "contents": {
+                                    "img": false,
+                                    "imgWithCarousel": true,
+                                    "variantTitle": false,
+                                    "buttonWithQuantity": true,
+                                    "button": false,
+                                    "quantity": false
+                                },
+                                "styles": {
+                                    "product": {
+                                        "@media (min-width: 601px)": {
+                                            "max-width": "100%",
+                                            "margin-left": "0px",
+                                            "margin-bottom": "0px"
+                                        }
+                                    },
+                                    "button": {
+                                        "background-color": "#8ed7b0",
+                                        "padding-left": "20px",
+                                        "padding-right": "20px",
+                                        ":hover": {
+                                            "background-color": "#e69200"
+                                        },
+                                        ":focus": {
+                                            "background-color": "#e69200"
+                                        },
+                                        "font-weight": "normal"
+                                    }
+                                }
+                            },
+                            "toggle": {
+                                "styles": {
+                                    "toggle": {
+                                        "background-color": "#ffa200",
+                                        ":hover": {
+                                            "background-color": "#e69200"
+                                        },
+                                        ":focus": {
+                                            "background-color": "#e69200"
+                                        },
+                                        "font-weight": "normal"
+                                    }
+                                }
+                            },
+                            "productSet": {
+                                "styles": {
+                                    "products": {
+                                        "@media (min-width: 601px)": {
+                                            "margin-left": "-20px"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    });
+                    ui.createComponent('product', {
+                        id: [142008287258],
+                        variantId: 5835467265,
+                        node: document.getElementById('product-component-9a25aef6304'),
+                        moneyFormat: '%24%7B%7Bamount%7D%7D',
+                        options: {
+                            "product": {
+                                "variantId": "5835467265",
+                                "width": "100%",
+                                "contents": {
+                                    "img": false,
+                                    "imgWithCarousel": false,
+                                    "title": false,
+                                    "variantTitle": false,
+                                    "options": false,
+                                    "price": false,
+                                    "description": false,
+                                    "buttonWithQuantity": false,
+                                    "quantity": false
+                                },
+                                "styles": {
+                                    "product": {
+                                        "@media (min-width: 601px)": {
+                                            "max-width": "100%",
+                                            "margin-left": "0",
+                                            "margin-bottom": "50px"
+                                        }
+                                    },
+                                    "button": {
+                                        "background-color": "#8ed7b0",
+                                        "padding-left": "20px",
+                                        "padding-right": "20px",
+                                        ":hover": {
+                                            "background-color": "#e69200"
+                                        },
+                                        ":focus": {
+                                            "background-color": "#e69200"
+                                        },
+                                        "font-weight": "normal"
+                                    },
+                                    "compareAt": {
+                                        "font-size": "12px"
+                                    }
+                                }
+                            },
+                            "cart": {
+                                "contents": {
+                                    "button": true
+                                },
+                                "styles": {
+                                    "button": {
+                                        "background-color": "#8ed7b0",
+                                        ":hover": {
+                                            "background-color": "#e69200"
+                                        },
+                                        ":focus": {
+                                            "background-color": "#e69200"
+                                        },
+                                        "font-weight": "normal"
+                                    },
+                                    "footer": {
+                                        "background-color": "#ffffff"
+                                    }
+                                }
+                            },
+                            "modalProduct": {
+                                "contents": {
+                                    "img": false,
+                                    "imgWithCarousel": true,
+                                    "variantTitle": false,
+                                    "buttonWithQuantity": true,
+                                    "button": false,
+                                    "quantity": false
+                                },
+                                "styles": {
+                                    "product": {
+                                        "@media (min-width: 601px)": {
+                                            "max-width": "100%",
+                                            "margin-left": "0px",
+                                            "margin-bottom": "0px"
+                                        }
+                                    },
+                                    "button": {
+                                        "background-color": "#8ed7b0",
+                                        "padding-left": "20px",
+                                        "padding-right": "20px",
+                                        ":hover": {
+                                            "background-color": "#e69200"
+                                        },
+                                        ":focus": {
+                                            "background-color": "#e69200"
+                                        },
+                                        "font-weight": "normal"
+                                    }
+                                }
+                            },
+                            "toggle": {
+                                "styles": {
+                                    "toggle": {
+                                        "background-color": "#ffa200",
+                                        ":hover": {
+                                            "background-color": "#e69200"
+                                        },
+                                        ":focus": {
+                                            "background-color": "#e69200"
+                                        },
+                                        "font-weight": "normal"
+                                    }
+                                }
+                            },
+                            "productSet": {
+                                "styles": {
+                                    "products": {
+                                        "@media (min-width: 601px)": {
+                                            "margin-left": "-20px"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    });
+
+
+                });
+            }
+        })();
+        /*]]>*/
+
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript">
+    </script>
+    <script src="{{%20'webflow.js'%20|%20asset_url%20}}">
+    </script>
+    <!-- [if lte IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script>
+    <![endif] -->
+</body>
