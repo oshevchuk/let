@@ -1,14 +1,14 @@
 body {
-  background-color: #8aa543;
+  background-color: #0a0e15;
   margin:0px;
 }
 
 .header {
   width: 100%;
-  //background-image: url('images/header.png');
-  //background-size: auto 100%;
+  background-image: url('images/header.png');
+  background-size: auto 100%;
   //background-position-y: 3px;
-  background-color: #4843a5;
+  //background-color: #4843a5;
   //min-height: 200px;
   min-height: 140px;
   display: flex;
@@ -53,7 +53,7 @@ body {
 
 
     & > div{
-      height: 195px;
+      height: 250px;
       position: relative;
       //display: flex;
       justify-content: center;
@@ -64,8 +64,8 @@ body {
 
 .os-body{
   box-sizing: border-box;
-  position: relative;
-  top:-40px;
+  //position: relative;
+  //top:-40px;
   //border: 1px solid #0e324c;
   //border-top:1px solid white;
   box-shadow: 0px 0px 20px grey, inset 0px 0px 2px grey;
@@ -88,12 +88,12 @@ body {
 }
 
 .header1 {
-  font-family: impact, "Times New Roman", Times, serif;
-  font-size: 59px;
-  color: #f5f5f5;
+  font-family: arial, "Times New Roman", Times, serif;
+  font-size: 51px;
+  color: #2c4452;
   line-height: 30pt;
-  text-align: left;
-  font-weight: normal;
+  text-align: center;
+  font-weight: bold;
   //background-image: url('images/sub_head.png');
   //background-size: 100% 100%;
   //text-transform: uppercase;
@@ -101,7 +101,7 @@ body {
   //text-transform: uppercase;
   padding: 5px;
   box-sizing: border-box;
-
+  padding-top: 60px;
   width:100%;
   margin: auto;
   //margin-top: 60px;
@@ -114,98 +114,98 @@ body {
 
 .header2 {
   font-family: arial, "Times New Roman", Times, serif;
-  font-size: 17px;
-  color: #eae9fb;
-  //line-height: 30pt;
+  font-size: 21px;
+  color: #386d92;
+  line-height: 30pt;
   text-align: center;
   font-weight: normal;
-  //max-width: 920px;
-  //width: 100%;
-  //margin:auto;
-  padding: 10px 20px;
-  margin-top: 10px;
   //position: absolute;
   //bottom: -2px;
   //background-color: #a1dbf1;
   //border-radius: 10px 10px 0 0 ;;
   //border-radius: 15px;
-  background-image: url('images/sbg.png');
-  background-size: auto 100%;
+  //background-image: url('images/sbg.png');
+  //background-size: auto 100%;
   //height: 35px;
   //background-color: #daf776;
   //margin-bottom: 53px;
   //border-bottom: 1px solid #c2e4f0;
-  display: inline-block;
+  //display: inline-block;
   //top: -15px;
   //z-index: 1;
   //position: relative;
 }
 
 .bg-left {
-  //background-image: url("images/b1.png");
+  background-image: url("images/b1.png");
   background-repeat: no-repeat;
   //background-color: white;
-  height: 20px;
-  width: 45px;
+  height: 13px;
+  width: 13px;
 }
 
 .bg-right {
-  //background-image: url("images/b2.png");
+  background-image: url("images/b2.png");
   background-repeat: no-repeat;
   //background-color: white;
-  height: 20px;
-  width: 45px;
+  height: 13px;
+  width: 13px;
 }
 
 .bg-lleft {
-  //background-image: url("images/b5.png");
+  background-image: url("images/b5.png");
   background-repeat: repeat-y;
-  width: 27px;
+  background-size:  100% auto;
+  width: 14px;
   //background-color: white;
 }
 
 .bg-rright {
-  //background-image: url("images/b4.png");
+  background-image: url("images/b4.png");
   //background-repeat: repeat-y;
   //width: 16px;
   //background-color: white;
-  width: 20px;
+  background-size:  100% auto;
+  width: 13px;
   background-position: right;
 }
 
 .bg-bottom {
-  //background-image: url("images/b8.png");
+  background-image: url("images/b8.png");
   //background-repeat: repeat-y;
   //background-color: white;
-  height: 20px;
+  background-size: auto 100%;
+  height: 13px;
   width: 100%;
 }
 
 .bg-bleft {
-  //background-image: url("images/b6.png");
+  background-image: url("images/b6.png");
   background-repeat: no-repeat;
   //background-color: white;
-  width: 45px;
-  height: 20px;
+  width: 13px;
+  height: 13px;
 }
 
 .bg-bright {
-  //background-image: url("images/b7.png");
+  background-image: url("images/b7.png");
   background-repeat: no-repeat;
   //background-color: white;
-  width: 45px;
-  height: 20px;
+  width: 13px;
+  height: 13px;
 }
 
 .bg-top {
   width: 100%;
-  height: 20px;
-  //background-image: url("images/b3.png");
+  height: 13px;
+  background-image: url("images/b3.png");
+  background-size: auto 100%;
   //background-color: white;
 }
 
 .bg-row {
-  width: 100%;
+  //width: 100%;
+  width: calc(100% + 1px);
   display: flex;
 }
 
@@ -220,9 +220,9 @@ body {
 //
 .subhead {
   font-family: arial;
-  color: #000000;
+  color: #5b677b;
   line-height: 22px;
-  font-weight: bold;
+  font-weight: normal;
   text-align: Center;
   font-size: 19px;
   //padding: 0 90px;
@@ -231,12 +231,12 @@ body {
 }
 
 .head0 {
-  font-family: impact,arial, "Times New Roman", Times, serif;
-  font-size: 45px;
-  color: #504bad;
-  line-height: 37pt;
+  font-family: arial, "Times New Roman", Times, serif;
+  font-size: 35px;
+  color: #366a8b;
+  line-height: 33pt;
   text-align: center;
-  font-weight: normal;
+  font-weight: bold;
   padding-bottom: 10px;
   //letter-spacing: -1px;
   //font-style: italic;
@@ -244,20 +244,19 @@ body {
 
 .head3 {
   font-family: arial, "Times New Roman", Times, serif;
-  font-size: 26px;
-  color: #002447;
-  line-height: 23pt;
+  font-size: 21px;
+  color: #062435;
+  line-height: 21pt;
   text-align: center;
-  font-weight: bold;
   padding-bottom: 31px;
   padding-top: 13px;
   letter-spacing: -0px;
 }
 
 .author {
-  font-family: arial;
+  font-family: verdana;
   font-size: 14px;
-  color: #002447;
+  color: #000000;
   line-height: 22px;
   font-weight: normal;
 }
@@ -268,10 +267,10 @@ body {
 }
 
 p {
-  font-family: arial;
-  font-size: 15px;
+  font-family: verdana;
+  font-size: 14px;
   color: #000000;
-  line-height: 20px;
+  line-height: 22px;
 }
 
 .bigletter {
@@ -279,8 +278,8 @@ p {
   font-size: 52pt;
   line-height: 0.8;
   margin-left: 0px;
-  color: #504bad;
-  font-family: impact,arial;
+  color: #387192;
+  font-family: verdana;
 }
 
 .cen {
@@ -291,7 +290,7 @@ p {
   max-width: 480px;
   margin: auto;
   //border: 4px double #d7d0ab;
-  border: 3px solid #504bad;
+  border: 3px solid #387192;
   img {
     width: 100%;
     min-height: 320px;
@@ -300,10 +299,10 @@ p {
 }
 
 .head4 {
-  font-family: impact,arial, "Times New Roman", Times, serif;
-  font-size: 33px;
-  color: #504bad;
-  line-height: 28pt;
+  font-family: arial, "Times New Roman", Times, serif;
+  font-size: 28px;
+  color: #387192;
+  line-height: 25pt;
   text-align: center;
   font-weight: normal;
   padding-bottom: 7px;
@@ -315,13 +314,13 @@ p {
 li {
   background-image: url('images/t3_11.jpg');
   background-repeat: no-repeat;
-  background-position: 0 .02em;
-  padding-left: 1.8em;
+  background-position: 0 .32em;
+  padding-left: 1.5em;
   margin: 13px 0;
-  font-family: arial, "Times New Roman", Times, serif;
+  font-family: verdana, "Times New Roman", Times, serif;
   font-size: 15px;
   color: #000000;
-  line-height: 15pt;
+  line-height: 17pt;
   text-align: left;
 }
 
@@ -333,35 +332,35 @@ ul {
 
 .signature {
   font-family: arial;
-  font-size: 19px;
-  color: #636363;
+  font-size: 21px;
+  color: #051f30;
   line-height: 26px;
   text-align: left;
   font-weight: normal;
   font-style: italic;
-  padding-bottom: 10px;
+  padding-bottom: 10px
 }
 
 .ps {
   font-family: arial;
-  font-size: 15px;
+  font-size: 16px;
   color: #201a19;
-  line-height: 20px;
+  line-height: 22px;
   text-align: left;
   font-weight: normal;
   font-style: normal;
   padding-top: 15px;
   padding-bottom: 0px;
   a {
-    color: #3f37c3;
+    color: #3965b1;
     font-weight: bold;
   }
 }
 
 .guarantee-head {
-  font-family: impact,arial, "Times New Roman", Times, serif;
+  font-family: arial, "Times New Roman", Times, serif;
   font-size: 26px;
-  color: #7b9439;
+  color: #2f3a4c;
   line-height: 25pt;
   text-align: center;
   font-style: normal;
@@ -373,10 +372,10 @@ ul {
 }
 
 .guarantee-text {
-  font-family: arial;
-  font-size: 15px;
+  font-family: verdana;
+  font-size: 14px;
   color: #000000;
-  line-height: 20px;
+  line-height: 22px;
   font-style: normal;
   padding-bottom: 0px;
   text-align: left;
@@ -385,8 +384,8 @@ ul {
 }
 
 .guarantee-table {
-  border: 1px dashed #b6c788;
-  background-color: #f3f8e6;
+  border: 1px dashed #8b98b0;
+  background-color: #ebeff6;
   padding: 16px;
   max-width: 500px;
   margin: auto;
@@ -415,8 +414,9 @@ ul {
   margin: auto;
   //border-radius: 10px;
   background-color: #fff;
-  border: 1px solid #e0eaff;
+  border: 3px solid #cad8e0;
   //box-shadow: 0 0 15px #eaeff3, inset 0px 0px 25px rgba(80,80,80,0.2);
+  box-shadow: inset 0px 0px 25px #cad8e0;
   //background: url('images/bonus.png') repeat-y;
   //background-size: 100% auto;
   overflow: hidden;
@@ -451,22 +451,22 @@ ul {
 
   .bonus-head {
     font-family: arial, "Times New Roman", Times, serif;
-    font-size: 24px;
-    color: #ffffff;
+    font-size: 23px;
+    color: #3b505a;
     line-height: 22pt;
     text-align: center;
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     //letter-spacing: -1px;
     padding-bottom: 12px;
     padding-top: 14px;
 
-    border: 5px solid #eaf9fe;
+    //border: 5px solid #eaf9fe;
   }
 
   .bonus-text {
-    font-family: arial, "Times New Roman", Times, serif;
-    font-size: 15px;
+    font-family: verdana, "Times New Roman", Times, serif;
+    font-size: 14px;
     line-height: 21px;
     color: #000000;
     font-style: normal;
@@ -495,24 +495,24 @@ ul {
     margin: auto;
     //position: relative;
     //top:-10px;
-    border: 5px solid white;
+    //border: 5px solid white;
     box-sizing: border-box;
   }
   .product-head {
     font-family: arial, "Times New Roman", Times, serif;
-    font-size: 24px;
+    font-size: 23px;
     color: #ffffff;
     line-height: 22pt;
     text-align: center;
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     padding-bottom: 0px;
     padding-top: 3px;
     padding: 10px;
   }
   .product-text {
-    font-family: arial, "Times New Roman", Times, serif;
-    font-size: 15px;
+    font-family: verdana, "Times New Roman", Times, serif;
+    font-size: 14px;
     line-height: 21px;
     color: #000000;
     font-style: normal;
@@ -524,9 +524,10 @@ ul {
 .os-message {
   max-width: 600px;
   margin: auto;
-  border: 1px solid #d3ddbc;
+  border: 3px solid #dcdcdc;
   //border-radius: 10px;
   //box-shadow: 0 0 10px #f8f4e9, inset 0px 0px 25px  #c0f041;
+  box-shadow: inset 0px 0px 35px  #dcdcdc;
   background-color: #ffffff;
   //box-shadow:0px 0px 35px #fbfaf6;
   //background-image: url('images/message.png');
@@ -536,10 +537,10 @@ ul {
 
   .testimonial1 {
     //box-shadow: 0 0 10px rgba(50, 50, 50, 1); //, inset 0px 0px 15px rgba(220,220,220,1);
-    background-image: url('images/message.png');
-    background-size: cover;
-    border: 1px solid #d3ddbc;
-    margin:4px;
+    //background-image: url('images/message.png');
+    //background-size: cover;
+    //border: 1px solid #d3ddbc;
+    //margin:4px;
     //border-radius: 20px;
     //width: calc(100% - 20px);
     //width: 100%;
@@ -553,20 +554,18 @@ ul {
 
   .testimonial-head {
     font-family: arial, "Times New Roman", Times, serif;
-    font-size: 24px;
-    color: #626c4b;
+    font-size: 25px;
+    color: #454545;
     line-height: 22pt;
     text-align: center;
     font-style: normal;
-    font-weight: bold;
-    padding-top: 2px;
-    letter-spacing: -1px;
+    font-weight: normal;
     padding-top: 10px;
     padding-bottom: 2px;
   }
   .testimonial-text {
-    font-family: arial, "Times New Roman", Times, serif;
-    font-size: 15px;
+    font-family: verdana,arial, "Times New Roman", Times, serif;
+    font-size: 14px;
     line-height: 21px;
     color: #000000;
     font-style: normal;
@@ -589,21 +588,22 @@ ul {
 .fcon {
   //background-image: url('images/gew_29.png');
   //background-size: auto 100%;
-  //background-color: #051e2f;
+  background-color: #242d3c;
   max-width: 100%;
-  //margin-top: 4px;
+  margin-top: 20px;
   //padding-top: 20px;
+  border-top: 3px solid #5b677b;
   display: flex;
   justify-content: center;
 
   .footer {
     font-family: arial;
     font-size: 11px;
-    color: #c4cab4;
+    color: #bccad4;
     text-decoration: none;
     text-align: center;
     padding: 0;
-    //padding-top: 20px;
+    padding-top: 20px;
     padding-bottom: 13px;
     //width: 600px;
   }
@@ -612,7 +612,7 @@ ul {
 .footer a {
   font-family: tahoma;
   font-size: 11px;
-  color: #c4cab4;
+  color: #bccad4;
   text-decoration: none;
   text-align: center;
   font-weight: bold;

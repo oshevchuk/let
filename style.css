@@ -1,10 +1,11 @@
 body {
-  background-color: #8aa543;
+  background-color: #0a0e15;
   margin: 0px; }
 
 .header {
   width: 100%;
-  background-color: #4843a5;
+  background-image: url("images/header.png");
+  background-size: auto 100%;
   min-height: 140px;
   display: flex;
   flex-direction: column;
@@ -23,15 +24,13 @@ body {
     box-sizing: border-box;
     position: relative; }
     .header .container > div {
-      height: 195px;
+      height: 250px;
       position: relative;
       justify-content: center;
       flex-direction: column; }
 
 .os-body {
   box-sizing: border-box;
-  position: relative;
-  top: -40px;
   box-shadow: 0px 0px 20px grey, inset 0px 0px 2px grey;
   background-color: white; }
 
@@ -46,67 +45,76 @@ body {
   width: 100%; }
 
 .header1 {
-  font-family: impact, "Times New Roman", Times, serif;
-  font-size: 59px;
-  color: #f5f5f5;
+  font-family: arial, "Times New Roman", Times, serif;
+  font-size: 51px;
+  color: #2c4452;
   line-height: 30pt;
-  text-align: left;
-  font-weight: normal;
+  text-align: center;
+  font-weight: bold;
   padding: 5px;
   box-sizing: border-box;
+  padding-top: 60px;
   width: 100%;
   margin: auto; }
 
 .header2 {
   font-family: arial, "Times New Roman", Times, serif;
-  font-size: 17px;
-  color: #eae9fb;
+  font-size: 21px;
+  color: #386d92;
+  line-height: 30pt;
   text-align: center;
-  font-weight: normal;
-  padding: 10px 20px;
-  margin-top: 10px;
-  background-image: url("images/sbg.png");
-  background-size: auto 100%;
-  display: inline-block; }
+  font-weight: normal; }
 
 .bg-left {
+  background-image: url("images/b1.png");
   background-repeat: no-repeat;
-  height: 20px;
-  width: 45px; }
+  height: 13px;
+  width: 13px; }
 
 .bg-right {
+  background-image: url("images/b2.png");
   background-repeat: no-repeat;
-  height: 20px;
-  width: 45px; }
+  height: 13px;
+  width: 13px; }
 
 .bg-lleft {
+  background-image: url("images/b5.png");
   background-repeat: repeat-y;
-  width: 27px; }
+  background-size: 100% auto;
+  width: 14px; }
 
 .bg-rright {
-  width: 20px;
+  background-image: url("images/b4.png");
+  background-size: 100% auto;
+  width: 13px;
   background-position: right; }
 
 .bg-bottom {
-  height: 20px;
+  background-image: url("images/b8.png");
+  background-size: auto 100%;
+  height: 13px;
   width: 100%; }
 
 .bg-bleft {
+  background-image: url("images/b6.png");
   background-repeat: no-repeat;
-  width: 45px;
-  height: 20px; }
+  width: 13px;
+  height: 13px; }
 
 .bg-bright {
+  background-image: url("images/b7.png");
   background-repeat: no-repeat;
-  width: 45px;
-  height: 20px; }
+  width: 13px;
+  height: 13px; }
 
 .bg-top {
   width: 100%;
-  height: 20px; }
+  height: 13px;
+  background-image: url("images/b3.png");
+  background-size: auto 100%; }
 
 .bg-row {
-  width: 100%;
+  width: calc(100% + 1px);
   display: flex; }
 
 .full {
@@ -118,38 +126,37 @@ body {
 
 .subhead {
   font-family: arial;
-  color: #000000;
+  color: #5b677b;
   line-height: 22px;
-  font-weight: bold;
+  font-weight: normal;
   text-align: Center;
   font-size: 19px;
   padding-bottom: 0px;
   padding-top: 11px; }
 
 .head0 {
-  font-family: impact,arial, "Times New Roman", Times, serif;
-  font-size: 45px;
-  color: #504bad;
-  line-height: 37pt;
+  font-family: arial, "Times New Roman", Times, serif;
+  font-size: 35px;
+  color: #366a8b;
+  line-height: 33pt;
   text-align: center;
-  font-weight: normal;
+  font-weight: bold;
   padding-bottom: 10px; }
 
 .head3 {
   font-family: arial, "Times New Roman", Times, serif;
-  font-size: 26px;
-  color: #002447;
-  line-height: 23pt;
+  font-size: 21px;
+  color: #062435;
+  line-height: 21pt;
   text-align: center;
-  font-weight: bold;
   padding-bottom: 31px;
   padding-top: 13px;
   letter-spacing: -0px; }
 
 .author {
-  font-family: arial;
+  font-family: verdana;
   font-size: 14px;
-  color: #002447;
+  color: #000000;
   line-height: 22px;
   font-weight: normal; }
 
@@ -158,18 +165,18 @@ body {
   border: 1px solid #504340; }
 
 p {
-  font-family: arial;
-  font-size: 15px;
+  font-family: verdana;
+  font-size: 14px;
   color: #000000;
-  line-height: 20px; }
+  line-height: 22px; }
 
 .bigletter {
   float: left;
   font-size: 52pt;
   line-height: 0.8;
   margin-left: 0px;
-  color: #504bad;
-  font-family: impact,arial; }
+  color: #387192;
+  font-family: verdana; }
 
 .cen {
   text-align: center; }
@@ -177,17 +184,17 @@ p {
 .vidbox {
   max-width: 480px;
   margin: auto;
-  border: 3px solid #504bad; }
+  border: 3px solid #387192; }
   .vidbox img {
     width: 100%;
     min-height: 320px;
     max-width: 480px; }
 
 .head4 {
-  font-family: impact,arial, "Times New Roman", Times, serif;
-  font-size: 33px;
-  color: #504bad;
-  line-height: 28pt;
+  font-family: arial, "Times New Roman", Times, serif;
+  font-size: 28px;
+  color: #387192;
+  line-height: 25pt;
   text-align: center;
   font-weight: normal;
   padding-bottom: 7px;
@@ -198,13 +205,13 @@ p {
 li {
   background-image: url("images/t3_11.jpg");
   background-repeat: no-repeat;
-  background-position: 0 .02em;
-  padding-left: 1.8em;
+  background-position: 0 .32em;
+  padding-left: 1.5em;
   margin: 13px 0;
-  font-family: arial, "Times New Roman", Times, serif;
+  font-family: verdana, "Times New Roman", Times, serif;
   font-size: 15px;
   color: #000000;
-  line-height: 15pt;
+  line-height: 17pt;
   text-align: left; }
 
 ul {
@@ -213,8 +220,8 @@ ul {
 
 .signature {
   font-family: arial;
-  font-size: 19px;
-  color: #636363;
+  font-size: 21px;
+  color: #051f30;
   line-height: 26px;
   text-align: left;
   font-weight: normal;
@@ -223,22 +230,22 @@ ul {
 
 .ps {
   font-family: arial;
-  font-size: 15px;
+  font-size: 16px;
   color: #201a19;
-  line-height: 20px;
+  line-height: 22px;
   text-align: left;
   font-weight: normal;
   font-style: normal;
   padding-top: 15px;
   padding-bottom: 0px; }
   .ps a {
-    color: #3f37c3;
+    color: #3965b1;
     font-weight: bold; }
 
 .guarantee-head {
-  font-family: impact,arial, "Times New Roman", Times, serif;
+  font-family: arial, "Times New Roman", Times, serif;
   font-size: 26px;
-  color: #7b9439;
+  color: #2f3a4c;
   line-height: 25pt;
   text-align: center;
   font-style: normal;
@@ -249,10 +256,10 @@ ul {
   letter-spacing: -1px; }
 
 .guarantee-text {
-  font-family: arial;
-  font-size: 15px;
+  font-family: verdana;
+  font-size: 14px;
   color: #000000;
-  line-height: 20px;
+  line-height: 22px;
   font-style: normal;
   padding-bottom: 0px;
   text-align: left;
@@ -260,8 +267,8 @@ ul {
   padding-top: 14px; }
 
 .guarantee-table {
-  border: 1px dashed #b6c788;
-  background-color: #f3f8e6;
+  border: 1px dashed #8b98b0;
+  background-color: #ebeff6;
   padding: 16px;
   max-width: 500px;
   margin: auto; }
@@ -281,7 +288,8 @@ ul {
   max-width: 580px;
   margin: auto;
   background-color: #fff;
-  border: 1px solid #e0eaff;
+  border: 3px solid #cad8e0;
+  box-shadow: inset 0px 0px 25px #cad8e0;
   overflow: hidden; }
   .os-bonus .bonus1 {
     background-image: url("images/bonus.png");
@@ -295,18 +303,17 @@ ul {
     padding-bottom: 15px; }
   .os-bonus .bonus-head {
     font-family: arial, "Times New Roman", Times, serif;
-    font-size: 24px;
-    color: #ffffff;
+    font-size: 23px;
+    color: #3b505a;
     line-height: 22pt;
     text-align: center;
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     padding-bottom: 12px;
-    padding-top: 14px;
-    border: 5px solid #eaf9fe; }
+    padding-top: 14px; }
   .os-bonus .bonus-text {
-    font-family: arial, "Times New Roman", Times, serif;
-    font-size: 15px;
+    font-family: verdana, "Times New Roman", Times, serif;
+    font-size: 14px;
     line-height: 21px;
     color: #000000;
     font-style: normal;
@@ -324,22 +331,21 @@ ul {
     background-size: cover;
     width: 100%;
     margin: auto;
-    border: 5px solid white;
     box-sizing: border-box; }
   .mail .product-head {
     font-family: arial, "Times New Roman", Times, serif;
-    font-size: 24px;
+    font-size: 23px;
     color: #ffffff;
     line-height: 22pt;
     text-align: center;
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     padding-bottom: 0px;
     padding-top: 3px;
     padding: 10px; }
   .mail .product-text {
-    font-family: arial, "Times New Roman", Times, serif;
-    font-size: 15px;
+    font-family: verdana, "Times New Roman", Times, serif;
+    font-size: 14px;
     line-height: 21px;
     color: #000000;
     font-style: normal;
@@ -349,33 +355,28 @@ ul {
 .os-message {
   max-width: 600px;
   margin: auto;
-  border: 1px solid #d3ddbc;
+  border: 3px solid #dcdcdc;
+  box-shadow: inset 0px 0px 35px  #dcdcdc;
   background-color: #ffffff;
   background-size: 100% auto; }
   .os-message .testimonial1 {
-    background-image: url("images/message.png");
-    background-size: cover;
-    border: 1px solid #d3ddbc;
-    margin: 4px;
     position: relative;
     z-index: 1;
     box-sizing: content-box;
     padding-bottom: 8px; }
   .os-message .testimonial-head {
     font-family: arial, "Times New Roman", Times, serif;
-    font-size: 24px;
-    color: #626c4b;
+    font-size: 25px;
+    color: #454545;
     line-height: 22pt;
     text-align: center;
     font-style: normal;
-    font-weight: bold;
-    padding-top: 2px;
-    letter-spacing: -1px;
+    font-weight: normal;
     padding-top: 10px;
     padding-bottom: 2px; }
   .os-message .testimonial-text {
-    font-family: arial, "Times New Roman", Times, serif;
-    font-size: 15px;
+    font-family: verdana,arial, "Times New Roman", Times, serif;
+    font-size: 14px;
     line-height: 21px;
     color: #000000;
     font-style: normal;
@@ -387,22 +388,26 @@ ul {
     padding-bottom: 0px; }
 
 .fcon {
+  background-color: #242d3c;
   max-width: 100%;
+  margin-top: 20px;
+  border-top: 3px solid #5b677b;
   display: flex;
   justify-content: center; }
   .fcon .footer {
     font-family: arial;
     font-size: 11px;
-    color: #c4cab4;
+    color: #bccad4;
     text-decoration: none;
     text-align: center;
     padding: 0;
+    padding-top: 20px;
     padding-bottom: 13px; }
 
 .footer a {
   font-family: tahoma;
   font-size: 11px;
-  color: #c4cab4;
+  color: #bccad4;
   text-decoration: none;
   text-align: center;
   font-weight: bold;
