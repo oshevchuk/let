@@ -1,5 +1,5 @@
 body {
-  background-color: #0a0e15;
+  background-color: #f1f1f1;
   margin:0px;
 }
 
@@ -11,6 +11,7 @@ body {
   //background-color: #4843a5;
   //min-height: 200px;
   min-height: 140px;
+  height: 185px;
   display: flex;
 
   flex-direction: column;
@@ -20,13 +21,13 @@ body {
 
   position: relative;
 
-  //box-shadow: 0px 15px 40px #f0f0f0;
-  //border-bottom: 3px solid white;
+  box-shadow: 0px 0px 30px grey;
+  border-bottom: 8px solid #fffaff;
 
   //
   .sbgg{
-    background-image: url('images/sbgg.png');
-    background-size: 100% 100%;
+    //background-image: url('images/sbgg.png');
+    //background-size: 100% 100%;
     max-width: 900px;
     width: 100%;
     height: 20px;
@@ -34,15 +35,16 @@ body {
   }
 
   .container{
-    margin-top: 20px;
+    //margin-top: 20px;
     //border: 2px solid white;
     //border-radius: 10px 10px 0px 0px;
     //border-bottom: none;
-    //background-image: url('images/sub_head.png');
+    background-image: url('images/sub_head.png');
     //background-size: 100% 100%;
     //background-repeat: repeat-y;
     //padding-top: 25px;
     //height: 125px;
+    height: 185px;
     padding-left: 15px;
     padding-right: 15px;
     box-sizing: border-box;
@@ -71,7 +73,7 @@ body {
   box-shadow: 0px 0px 20px grey, inset 0px 0px 2px grey;
   //box-shadow:  inset 0px 0px 40px rgba(50,50,50,0.3);
   background-color: white;
-
+border-radius: 10px;
   //border-radius: 15px 15px 15px 15px;
 }
 
@@ -88,13 +90,12 @@ body {
 }
 
 .header1 {
-  font-family: arial, "Times New Roman", Times, serif;
-  font-size: 51px;
-  color: #2c4452;
-  line-height: 30pt;
+  font-family: "trebuchet ms", tahoma, "Times New Roman", Times, serif;
+  font-size: 34px;
+  color: #ffffff;
   text-align: center;
   font-weight: bold;
-  //background-image: url('images/sub_head.png');
+  //background-image: url('images/s1.png');
   //background-size: 100% 100%;
   //text-transform: uppercase;
   //padding-top: 50px;
@@ -110,13 +111,21 @@ body {
   //bottom: 10px;
   //border:1px solid black;
   //border-bottom: none;
+  span{
+    display: inline-block;
+    background-image: url('images/s1.png');
+    background-size: cover;
+    padding: 15px;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 10px;
+  }
 }
 
 .header2 {
-  font-family: arial, "Times New Roman", Times, serif;
-  font-size: 21px;
-  color: #386d92;
-  line-height: 30pt;
+  font-family: "trebuchet ms", tahoma, "Times New Roman", Times, serif;
+  font-size: 18px;
+  color: #3d502a;
   text-align: center;
   font-weight: normal;
   //position: absolute;
@@ -140,23 +149,24 @@ body {
   background-image: url("images/b1.png");
   background-repeat: no-repeat;
   //background-color: white;
-  height: 13px;
-  width: 13px;
+  height: 38px;
+  width: 38px;
 }
 
 .bg-right {
   background-image: url("images/b2.png");
   background-repeat: no-repeat;
   //background-color: white;
-  height: 13px;
-  width: 13px;
+  //background-size: cover;
+  height: 38px;
+  width: 41px;
 }
 
 .bg-lleft {
   background-image: url("images/b5.png");
   background-repeat: repeat-y;
   background-size:  100% auto;
-  width: 14px;
+  width: 38px;
   //background-color: white;
 }
 
@@ -166,7 +176,7 @@ body {
   //width: 16px;
   //background-color: white;
   background-size:  100% auto;
-  width: 13px;
+  width: 38px;
   background-position: right;
 }
 
@@ -175,7 +185,7 @@ body {
   //background-repeat: repeat-y;
   //background-color: white;
   background-size: auto 100%;
-  height: 13px;
+  height: 38px;
   width: 100%;
 }
 
@@ -183,21 +193,21 @@ body {
   background-image: url("images/b6.png");
   background-repeat: no-repeat;
   //background-color: white;
-  width: 13px;
-  height: 13px;
+  width: 38px;
+  height: 38px;
 }
 
 .bg-bright {
   background-image: url("images/b7.png");
   background-repeat: no-repeat;
   //background-color: white;
-  width: 13px;
-  height: 13px;
+  width: 41px;
+  height: 38px;
 }
 
 .bg-top {
   width: 100%;
-  height: 13px;
+  height: 38px;
   background-image: url("images/b3.png");
   background-size: auto 100%;
   //background-color: white;
@@ -219,10 +229,10 @@ body {
 
 //
 .subhead {
-  font-family: arial;
-  color: #5b677b;
+  font-family: "trebuchet ms",arial;
+  color: #000000;
   line-height: 22px;
-  font-weight: normal;
+  font-weight: bold;
   text-align: Center;
   font-size: 19px;
   //padding: 0 90px;
@@ -231,10 +241,10 @@ body {
 }
 
 .head0 {
-  font-family: arial, "Times New Roman", Times, serif;
-  font-size: 35px;
-  color: #366a8b;
-  line-height: 33pt;
+  font-family: "trebuchet ms", tahoma, "Times New Roman", Times, serif;
+  font-size: 32px;
+  color: #f55600;
+  line-height: 29pt;
   text-align: center;
   font-weight: bold;
   padding-bottom: 10px;
@@ -243,22 +253,24 @@ body {
 }
 
 .head3 {
-  font-family: arial, "Times New Roman", Times, serif;
-  font-size: 21px;
-  color: #062435;
-  line-height: 21pt;
+  font-family: "trebuchet ms", tahoma, "Times New Roman", Times, serif;
+  font-size: 23px;
+  color: #505050;
+  line-height: 22pt;
   text-align: center;
+  font-weight: bold;
   padding-bottom: 31px;
   padding-top: 13px;
   letter-spacing: -0px;
 }
 
 .author {
-  font-family: verdana;
+  font-family: arial;
   font-size: 14px;
-  color: #000000;
+  color: #0a1828;
   line-height: 22px;
   font-weight: normal;
+  text-align: left;
 }
 
 .author-img {
@@ -267,10 +279,11 @@ body {
 }
 
 p {
-  font-family: verdana;
-  font-size: 14px;
+  font-family: "arial", arial;
+  font-size: 15px;
   color: #000000;
   line-height: 22px;
+  text-align: left;
 }
 
 .bigletter {
@@ -278,8 +291,8 @@ p {
   font-size: 52pt;
   line-height: 0.8;
   margin-left: 0px;
-  color: #387192;
-  font-family: verdana;
+  color: #f55600;
+  font-family: "trebuchet ms",arial;
 }
 
 .cen {
@@ -289,8 +302,8 @@ p {
 .vidbox {
   max-width: 480px;
   margin: auto;
-  //border: 4px double #d7d0ab;
-  border: 3px solid #387192;
+  border: 4px double #f55600;
+  //border: 3px solid #387192;
   img {
     width: 100%;
     min-height: 320px;
@@ -299,14 +312,14 @@ p {
 }
 
 .head4 {
-  font-family: arial, "Times New Roman", Times, serif;
-  font-size: 28px;
-  color: #387192;
-  line-height: 25pt;
+  font-family: "trebuchet ms", arial, "Times New Roman", Times, serif;
+  font-size: 24px;
+  color: #709f3a;
+  line-height: 23pt;
   text-align: center;
-  font-weight: normal;
-  padding-bottom: 7px;
-  letter-spacing: -1px;
+  font-weight: bold;
+  padding-bottom: 3px;
+  //letter-spacing: -1px;
   padding-top: 6px;
   font-style: normal;
 }
@@ -314,13 +327,14 @@ p {
 li {
   background-image: url('images/t3_11.jpg');
   background-repeat: no-repeat;
-  background-position: 0 .32em;
-  padding-left: 1.5em;
+  background-position: 0 .05em;
+  padding-left: 2.4em;
+  margin-left: 0.4em;
   margin: 13px 0;
-  font-family: verdana, "Times New Roman", Times, serif;
+  font-family: "trebuchet ms", arial, "Times New Roman", Times, serif;
   font-size: 15px;
   color: #000000;
-  line-height: 17pt;
+  line-height: 15pt;
   text-align: left;
 }
 
@@ -331,40 +345,40 @@ ul {
 }
 
 .signature {
-  font-family: arial;
+  font-family: "trebuchet ms", arial;
   font-size: 21px;
-  color: #051f30;
-  line-height: 26px;
+  color: #de440d;
+  line-height: 28px;
   text-align: left;
   font-weight: normal;
   font-style: italic;
-  padding-bottom: 10px
+  padding-bottom: 20px;
 }
 
 .ps {
-  font-family: arial;
-  font-size: 16px;
-  color: #201a19;
-  line-height: 22px;
+  font-family: "arial", arial;
+  font-size: 15px;
+  color: #000000;
+  line-height: 20px;
   text-align: left;
   font-weight: normal;
   font-style: normal;
-  padding-top: 15px;
-  padding-bottom: 0px;
+  padding-top: 5px;
+  padding-bottom: 17px;
   a {
-    color: #3965b1;
-    font-weight: bold;
+    color: #f4820d;
+    //font-weight: bold;
   }
 }
 
 .guarantee-head {
-  font-family: arial, "Times New Roman", Times, serif;
+  font-family: "trebuchet ms",arial, "Times New Roman", Times, serif;
   font-size: 26px;
-  color: #2f3a4c;
-  line-height: 25pt;
+  color: #e7920f;
+  line-height: 23pt;
   text-align: center;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   margin-left: 0px;
   margin-bottom: 0px;
   padding: 0px 0px;
@@ -372,10 +386,10 @@ ul {
 }
 
 .guarantee-text {
-  font-family: verdana;
-  font-size: 14px;
+  font-family: arial;
+  font-size: 15px;
   color: #000000;
-  line-height: 22px;
+  line-height: 21px;
   font-style: normal;
   padding-bottom: 0px;
   text-align: left;
@@ -384,8 +398,8 @@ ul {
 }
 
 .guarantee-table {
-  border: 1px dashed #8b98b0;
-  background-color: #ebeff6;
+  border: 1px dashed #ffe1b4;
+  background-color: #fff9ef;
   padding: 16px;
   max-width: 500px;
   margin: auto;
@@ -412,17 +426,17 @@ ul {
 .os-bonus {
   max-width: 580px;
   margin: auto;
-  //border-radius: 10px;
-  background-color: #fff;
-  border: 3px solid #cad8e0;
+  border-radius: 10px;
+  background-color: #6ca034;
+  border: 2px solid #6b9333;
   //box-shadow: 0 0 15px #eaeff3, inset 0px 0px 25px rgba(80,80,80,0.2);
-  box-shadow: inset 0px 0px 25px #cad8e0;
+  box-shadow: inset 0px 0px 45px #97cb43;
   //background: url('images/bonus.png') repeat-y;
   //background-size: 100% auto;
   overflow: hidden;
 
   .bonus1 {
-    background-image: url('images/bonus.png');
+    //background-image: url('images/bonus.png');
     //background-repeat: repeat-x;
     //background-size: auto 100%;
     background-size: cover;
@@ -450,9 +464,9 @@ ul {
   }
 
   .bonus-head {
-    font-family: arial, "Times New Roman", Times, serif;
-    font-size: 23px;
-    color: #3b505a;
+    font-family: "trebuchet ms", arial, "Times New Roman", Times, serif;
+    font-size: 21px;
+    color: #ffffff;
     line-height: 22pt;
     text-align: center;
     font-style: normal;
@@ -465,11 +479,11 @@ ul {
   }
 
   .bonus-text {
-    font-family: verdana, "Times New Roman", Times, serif;
-    font-size: 14px;
+    font-family: "arial", arial, "Times New Roman", Times, serif;
+    font-size: 13px;
     line-height: 21px;
-    color: #000000;
-    font-style: normal;
+    color: #e8fbd3;
+    text-align: left;
     padding: 0px 20px;
     padding-top: 15px;
   }
@@ -478,11 +492,11 @@ ul {
 .mail {
   max-width: 600px;
   margin: auto;
-  border: 1px solid #000000;
-  //border-radius: 10px;
+  border: 2px solid #545454;
+  border-radius: 15px;
   overflow: hidden;
   //box-shadow: inset 0 0 15px #ffc309;
-  background-color: #ffffff;
+  background-color: #f2f2f2;
 
   .product1 {
     background: url('images/mail.png');
@@ -499,36 +513,36 @@ ul {
     box-sizing: border-box;
   }
   .product-head {
-    font-family: arial, "Times New Roman", Times, serif;
-    font-size: 23px;
+    font-family: "trebuchet ms",arial, "Times New Roman", Times, serif;
+    font-size: 21px;
     color: #ffffff;
     line-height: 22pt;
     text-align: center;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     padding-bottom: 0px;
     padding-top: 3px;
     padding: 10px;
   }
   .product-text {
-    font-family: verdana, "Times New Roman", Times, serif;
+    font-family: "trebuchet ms",arial, "Times New Roman", Times, serif;
     font-size: 14px;
-    line-height: 21px;
+    line-height: 20px;
     color: #000000;
     font-style: normal;
     padding: 15px 25px;
-    padding-top: 11px;
+    padding-top: 1px;
   }
 }
 
 .os-message {
   max-width: 600px;
   margin: auto;
-  border: 3px solid #dcdcdc;
-  //border-radius: 10px;
+  border: 1px solid #fc8c02;
+  border-radius: 10px;
   //box-shadow: 0 0 10px #f8f4e9, inset 0px 0px 25px  #c0f041;
-  box-shadow: inset 0px 0px 35px  #dcdcdc;
-  background-color: #ffffff;
+  box-shadow: inset 0px 0px 45px  #fdca01;
+  background-color: #f89201;
   //box-shadow:0px 0px 35px #fbfaf6;
   //background-image: url('images/message.png');
   //background-repeat: repeat-y;
@@ -553,21 +567,21 @@ ul {
   }
 
   .testimonial-head {
-    font-family: arial, "Times New Roman", Times, serif;
-    font-size: 25px;
-    color: #454545;
+    font-family: "trebuchet ms", tahoma, "Times New Roman", Times, serif;
+    font-size: 23px;
+    color: #ffffff;
     line-height: 22pt;
     text-align: center;
-    font-style: normal;
+    font-style: italic;
     font-weight: normal;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 2px;
   }
   .testimonial-text {
-    font-family: verdana,arial, "Times New Roman", Times, serif;
+    font-family: "arial", arial, "Times New Roman", Times, serif;
     font-size: 14px;
     line-height: 21px;
-    color: #000000;
+    color: #77521c;
     font-style: normal;
     padding: 0px 18px;
     padding-bottom: 14px;
@@ -588,18 +602,18 @@ ul {
 .fcon {
   //background-image: url('images/gew_29.png');
   //background-size: auto 100%;
-  background-color: #242d3c;
+  //background-color: #242d3c;
   max-width: 100%;
   margin-top: 20px;
   //padding-top: 20px;
-  border-top: 3px solid #5b677b;
+  //border-top: 3px solid #5b677b;
   display: flex;
   justify-content: center;
 
   .footer {
     font-family: arial;
     font-size: 11px;
-    color: #bccad4;
+    color: #848484;
     text-decoration: none;
     text-align: center;
     padding: 0;
@@ -612,17 +626,17 @@ ul {
 .footer a {
   font-family: tahoma;
   font-size: 11px;
-  color: #bccad4;
+  color: #848484;
   text-decoration: none;
   text-align: center;
-  font-weight: bold;
+  //font-weight: bold;
   margin-top: 25px;
   margin-bottom: 20px;
 }
 
 .optinbox {
-  border: 4px dashed #db0101;
-  background-color: #fffcf4;
+  border: 4px dashed #e84800;
+  background-color: #fdfdf2;
   font-family: "trebuchet ms", arial;
   font-size: 14px;
   color: black;
@@ -654,7 +668,7 @@ ul {
     font-family: "trebuchet ms", arial;
     font-size: 17px;
     font-weight: bold;
-    background-color: #db0101;
+    background-color: #e84800;
     border: 2px inherit #c55326;
     color: white;
   }
